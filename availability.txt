@@ -10,6 +10,8 @@ By Jeremiah Thomas, et al
 
 Created on 2020-05-24
 
+Updated on 2020-05-25
+
 +++
 
 For your first commit to the group repo, please add your meeting availability (morning, afternoon, evening) in accordance with the formats specified in the resources directory; read mine for an example. You can—and should—update this later if it changes. If we need to, we can extract this and make an iCal or something more visual, but the main purpose will be for me to coordinate the weekly Slack meeting(s).
@@ -21,13 +23,13 @@ Jeremiah Thomas     -              -              -              -              
                     -              13:00–15:00    13:00–15:00    13:00–15:00    13:00–15:00    13:00–15:00    -
                     20:00–24:00    20:00–24:00    20:00–24:00    20:00–24:00    20:00–24:00    -              -
 
-Anna Malmberg       7:00 - 9:00     -              -              -             -              -              7:00 - 11:00
-                    13:00 - 16:00   -              -              -             -              -              13:00 - 16:00
-                    19:00 - 21:00   19:00 - 21:00  19:00 - 21:00  19:00 - 21:00 19:00 - 21:00 19:00 - 21:00   19:00 - 21:00
+Anna Malmberg       7:00–9:00      -              -              -              -              -              7:00–11:00
+                    13:00–16:00    -              -              -              -              -              13:00–16:00
+                    19:00–21:00    19:00–21:00    19:00–21:00    19:00–21:00    19:00–21:00    19:00–21:00    19:00–21:00
 
 Stavros Bannoura    -              -              -              -              -              -              -
-                    -              15:30–24:00    15:30–24:00    15:30–24:00    15:30–24:00    13:50–18:00    -VARIES
-                    –              –              –              –              –              -              -
+                    -              15:30–24:00    15:30–24:00    15:30–24:00    15:30–24:00    13:50–18:00    Varies
+                    -              -              -              -              -              -              -
 
 [Next name...]
 """
