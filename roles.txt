@@ -39,7 +39,7 @@ Customer Advocate
 **Privileges**: Commit all (Git), change control board member (reqs), veto all
 **Primary deliverables**: SRS
 
-The customer advocate is the stand-in for the client. They must continually push for the client's needs, be able to see from the client's perspective, and be unafraid to respectfully challenge the direction of the project should it lose its way. As a member with a high-level view, they will help oversee commits, serve as the other half of the change control board, may veto any part of the project that may hurt the company/client relationship and ensures that client requirements are met. Since the customer advocate has such a clear insight into the customer's goals, they will also be the primary responsible party for the SRS, or software requirements specification.
+The customer advocate is the stand-in for the client. They must continually push for the client's needs, be able to see from the client's perspective, and be unafraid to respectfully challenge the direction of the project should it lose its way. As a member with a high-level view, they will help oversee commits, serve as the other half of the change control board, may veto any part of the project that may hurt the company/client relationship, and ensure that client requirements are met. Since the customer advocate has such a clear insight into the customer's goals, they will also be the primary responsible party for the SRS, or software requirements specification.
 
 ===
 Documentation Specialist
