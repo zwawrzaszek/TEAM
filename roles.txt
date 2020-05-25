@@ -16,7 +16,7 @@ Overview
 I've worked on a number of projects before but most have either been with a smaller team than this and/or fairly disorganized (mostly the large corporate projects!). I've also not found a lot of solid information on how to design and implement project management; this is, I think, largely due to the unique nature of each project. Nonetheless, here are the roles I have planned, with their tentative descriptions and duties below; ideas are welcome. Please add your name to a role to claim it:
 
 **Project Manager**: Jeremiah Thomas
-**Customer Advocate**:
+**Customer Advocate**: Anna Malmberg
 **Documentation Specialist**:
 **Lead Software Developer**:
 **Lead UI Designer**:
@@ -39,7 +39,7 @@ Customer Advocate
 **Privileges**: Commit all (Git), change control board member (reqs), veto all
 **Primary deliverables**: SRS
 
-The customer advocate is the stand-in for the client. They must continually push for the client's needs, be able to see from the client's perspective, and be unafraid to respectfully challenge the direction of the project should it lose its way. As a member with a high-level view, they will help oversee commits, serve as the other half of the change control board, and may veto any part of the project that may hurt the company/client relationship. Since the customer advocate has such a clear insight into the customer's goals, they will also be the primary responsible party for the SRS, or software requirements specification.
+The customer advocate is the stand-in for the client. They must continually push for the client's needs, be able to see from the client's perspective, and be unafraid to respectfully challenge the direction of the project should it lose its way. As a member with a high-level view, they will help oversee commits, serve as the other half of the change control board, may veto any part of the project that may hurt the company/client relationship and ensures that client requirements are met. Since the customer advocate has such a clear insight into the customer's goals, they will also be the primary responsible party for the SRS, or software requirements specification.
 
 ===
 Documentation Specialist
