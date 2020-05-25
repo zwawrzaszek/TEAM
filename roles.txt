@@ -34,7 +34,7 @@ Project Manager
 The project manager is responsible both for the team and the deliverables. They must bridge the gap between the client, the company, and the rest of the team and will generally spend most of their time and energy focused on keeping the project on track. They cannot get bogged down in the details nor micromanage but should step in to resolve or prevent conflicts. A member of the change control board, the project manager also has general power over commits, can [cautiously] override anything that may threaten the project, and will make the final submission of deliverables. They also have to regularly report back to corporate—in this case, the teacher!
 
 ===
-Customer Advocate
+Customer Advocate     ---  Sandhya Joshi (1)
 
 **Privileges**: Commit all (Git), change control board member (reqs), veto all
 **Primary deliverables**: SRS
@@ -58,7 +58,7 @@ Lead Software Developer
 The lead software developer is interested in getting the job done right. While this may or may not involve actual coding, the lead developer should have a strong grasp of programming languages, paradigms, and practices. They should be able to approach software from both a top-down and a bottom-up point of view. Given their expertise, they will be a tiebreaker for the change control board and can veto either of the design documents. However, this comes with a great responsibility: they are the primary responsible party for both the HLD (high-level design) and LLD (low-level design).
 
 ===
-Lead UI Designer
+Lead UI Designer  Sandhya Joshi(2nd choice , i am familiar with HTML, i can assist the person who takes this lead)
 
 **Privileges**: veto HLD
 **Primary deliverables**: HLD (UI, incl graphics)
