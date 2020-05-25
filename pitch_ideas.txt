@@ -1,0 +1,39 @@
+Pitch Ideas
+
+https://github.com/bizzlebin/team/pitch_ideas.txt
+
+***
+
+By Jeremiah Thomas, et al
+
+***
+
+Created on 2020-05-24
+
++++
+Description
+
+We need to make a project pitch very soon. We've already settled on a tentative plan and I think it meets the requirements. But we're TEAM Exists As Metonym! And that means going far beyond.
+
+So in addition to our general idea, we need to bulk up our pitch. That means we need to study the project overview (csc154_project_overview.pdf in Blackboard) and other docs and articulate how our project meets some of the key goals for this activity: how does it address a business need? How does it incorporate a database? How will it require a team? Think about what you learned in CTS 115, if you've taken it. This pitch needs to be not only clear and thorough, but absolutely shame the pitches of the other competing teams. If someone wants to take it upon themselves to round up some graphics, that would be even better!
+
++++
+General Project Idea
+
+From the forum, here is our current "pitch":
+
+"
+One of the largest limitations of standard filesystems is that they're 1-dimensional. This limits the ways in which files can be sorted, searched, and accessed. Databases are inherently n-dimensional (well, technically, they're infinitely joinable 2-dimensional tables in an RDBMS, but close enough!). Though some tagging file managers exist, most mangle the filename or use other weird tricks that compromise a file's integrity to store tags. I want to create a file manager that uses a DB separate from the files which can store and manage this tag information. UI will be a bigger component of this project than the others.
+"
+
++++
+More Ideas
+
+As per the weekly schedule, everyone needs to add a minimum of *2* ideas below. Please create a [UEWSG] section titled with your name and then follow it with your ideas in a bulleted list. Remember to modify the file metadata, at top, if you edit this on a day after it was created!
+
+===
+Jeremiah Thomas
+
+• Database integrity checks and ACID will ensure clean tag assignment
+• Different departments within a businesses need the ability to sort complex documents in different ways
+• A graphic of Windows Explorer with a big red X? What would be the counterpoint?
