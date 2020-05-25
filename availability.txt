@@ -21,9 +21,15 @@ Jeremiah Thomas     -              -              -              -              
                     -              13:00–15:00    13:00–15:00    13:00–15:00    13:00–15:00    13:00–15:00    -
                     20:00–24:00    20:00–24:00    20:00–24:00    20:00–24:00    20:00–24:00    -              -
 
+
+Name                Sunday         Monday         Tuesday        Wednesday      Thursday       Friday         Saturday
+
+Stavros Bannoura    -              -              -              -              -              -              -
+                    -              15:30–24:00    15:30–24:00    15:30–24:00    15:30–24:00    13:50–18:00    -VARIES
+                    –              –              –              –              –              -              -
+
+
 [Next name...]
-
-
 """
 
 PS: Remember to add/modify an "Updated on ..." field if you update this—or any—document on a different day than its creation!
