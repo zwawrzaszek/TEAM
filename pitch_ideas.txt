@@ -44,3 +44,13 @@ Stavros Bannoura
 • Algo should possibly include a linked list to keep track of the stored file blocks for the file system (if possible).
 • The UI should include a design that has the ability to show the organized interfaces for each department so that the user can know which document he needs to sort or organize.
 • I know there are some issues with limiting the amount of data sharing, since data is scattered in various places which cause files to have different formats and be stored in different folders or in different departments it is best if we make the file system less difficult to share data among different applications (if possible).
+
+===
+Anna Malmberg
+
+• Who will be our target client for this project? While databases and file structures work similarly in most environments, I think it's important that we get a general idea of who the client will be. Are we creating this for a business (in which case let's pick a general category such as government, research, banking, medical... etc), or are we creating this for home users? This will effect many levels of the project from security to layout and functionality. A business would likely have the IT department set up the tags, which means control can be more granual versus the home user who would prefer it being straight forward and easy to use.
+
+• Continuing on Stravro's idea regarding the UI. I just started using Trello with a "kanban board" to organize myself at work, I think a similar approach could work here for the user side of the UI. One board per department that the user has access to, with different folders for groups. E.g. a chemistry laboratory could be broken down per instrumentation, a stock brokerage firm could be organized per broker, or for a home user you could have things like work-related, pets, car.
+
+• On the database side of it, from Jeremiah's idea I think what he's going for is that the tags are stored in the database and when the user selects/searches for a tag it will generate a list of documents that match where the user can then select the file or folder that the want to use, is that correct? It might be useful to have an option here for a brief description note saved in our database that describes what each tag is to be used for to ensure that the tags are used consistently. Client should have the option of creating new tags as needed, like project names or the name of a team lead, however the system will get cluttered quickly if general tags are not re-used.
+ 
