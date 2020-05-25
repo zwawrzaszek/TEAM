@@ -37,3 +37,10 @@ Jeremiah Thomas
 • Database integrity checks and ACID will ensure clean tag assignment
 • Different departments within a businesses need the ability to sort complex documents in different ways
 • A graphic of Windows Explorer with a big red X? What would be the counterpoint?
+
+===
+Stavros Bannoura 
+
+• Algo should possibly include a linked list to keep track of the stored file blocks for the file system (if possible).
+• The UI should include a design that has the ability to show the organized interfaces for each department so that the user can know which document he needs to sort or organize.
+• I know there are some issues with limiting the amount of data sharing, since data is scattered in various places which cause files to have different formats and be stored in different folders or in different departments it is best if we make the file system less difficult to share data among different applications (if possible).
