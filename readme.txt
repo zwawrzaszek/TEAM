@@ -1,4 +1,6 @@
-TEAM Project
+TEAM
+
+TEAM Exists As Metonym | WTCC CSC 154 Group Project
 
 https://github.com/bizzlebin/team/
 
@@ -56,9 +58,9 @@ Due By *Tuesday* (2020-05-26)
 3. Set up Slack.
 3.1. Create Slack account and/or join our channel.
 3.2. Say hello!
-4. Add your availability so we can schedule a regular Slack meeting (use a Git commit to the availability.txt file—get used to commits!)
-5. Pick your role in roles.txt; if you want to switch with someone before Wednesday use Slack or e-mail them to discuss
-6. Add at least 2 ideas—preferably consonant with your role—to pitch_ideas.txt
+4. Add your availability so we can schedule a regular Slack meeting (use a Git commit to the availability.txt file—get used to commits!).
+5. Pick your role in roles.txt; if you want to switch with someone before Wednesday use Slack or e-mail them to discuss.
+6. Add at least 2 ideas—preferably consonant with your role—to pitch_ideas.txt .
 
 +++
 Ground Rules
