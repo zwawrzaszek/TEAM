@@ -53,4 +53,26 @@ Anna Malmberg
 • Continuing on Stavros's idea regarding the UI. I just started using Trello with a "kanban board" to organize myself at work, I think a similar approach could work here for the user side of the UI. One board per department that the user has access to, with different folders for groups. E.g. a chemistry laboratory could be broken down per instrumentation, a stock brokerage firm could be organized per broker, or for a home user you could have things like work-related, pets, car.
 
 • On the database side of it, from Jeremiah's idea I think what he's going for is that the tags are stored in the database and when the user selects/searches for a tag it will generate a list of documents that match where the user can then select the file or folder that the want to use, is that correct? It might be useful to have an option here for a brief description note saved in our database that describes what each tag is to be used for to ensure that the tags are used consistently. Client should have the option of creating new tags as needed, like project names or the name of a team lead, however the system will get cluttered quickly if general tags are not re-used.
- 
+ =========================
+ Sandhya Joshi
+ •	There are some great points from Anna, Stavros. I would  like to expand upon that that thoughts. 
+•	 What is the final objective of the project? Tag based file manager means, it deals with files and data. We can keep it simple for real life application.
+
+•	Like an online Video rental store, which tags the movie based on genre like mystery , romance, sci-fi , drama , adventure so on.
+•	You can extract the movies based on these tags.
+
+•	Extracting the one pic from the picture folder. If it is tagged by the label with name and date, like vacation-2000, graduation-2012 birthday-2020.
+•	Then we can pull the file based on the tag
+
+
+•	I really liked the Anna’s idea about finding the recipe with the ingredients. We Can expand upon that . We can create a database of food and tag it with ingredients. 
+•	Based on the ingredients, you pull the recipe.
+•	For example, you have eggplant , zucchini ,tomato or bell pepper. It can pull multiple recipe with these ingredients. 
+
+•	Are we creating a our own database and using file tag manager?.
+
+
+
+
+
+
