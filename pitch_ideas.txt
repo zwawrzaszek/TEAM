@@ -10,7 +10,7 @@ By Jeremiah Thomas, et al
 
 Created on 2020-05-24
 
-Updated on 2020-05-26 AMM
+Updated on 2020-05-26
 
 +++
 Description
@@ -63,10 +63,10 @@ Documentation ideas:
 Sandhya Joshi
 
 There are some great points from Anna, Stavros. I would like to expand upon that that thoughts.
-•	Are we creating a our own database and using file tag manager?
-•	What is the final objective of the project? Tag based file manager means, it deals with files and data. We can keep it simple for real life application.
+• Are we creating a our own database and using file tag manager?
+• What is the final objective of the project? Tag based file manager means, it deals with files and data. We can keep it simple for real life application.
 
 Examples:
-•	You can extract the movies based on these tags, like an online Video rental store, which tags the movie based on genre like mystery, romance, sci-fi, drama, adventure so on.
-•	Extracting a picture from the picture folder that is tagged by a label with name and date, like vacation-2000, graduation-2012 birthday-2020.
-•	I really liked the Anna’s idea about finding the recipe with the ingredients. We can create a database of food and tag it with ingredients and based on the ingredients, you pull the recipe. For example, you have eggplant, zucchini, tomato or bell pepper. It can pull multiple recipe with these ingredients.
+• You can extract the movies based on these tags, like an online Video rental store, which tags the movie based on genre like mystery, romance, sci-fi, drama, adventure so on.
+• Extracting a picture from the picture folder that is tagged by a label with name and date, like vacation-2000, graduation-2012 birthday-2020.
+• I really liked the Anna’s idea about finding the recipe with the ingredients. We can create a database of food and tag it with ingredients and based on the ingredients, you pull the recipe. For example, you have eggplant, zucchini, tomato or bell pepper. It can pull multiple recipe with these ingredients.
