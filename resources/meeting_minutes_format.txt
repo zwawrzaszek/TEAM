@@ -27,7 +27,7 @@ Summary
 +++
 Attendance
 
-**Present**:[ Name(s)]
+**Present**:[ Name(s)] (note "Late" or "Left" parenthetically for attendees who didn't make the full meeting)
 **Absent**:[ Name(s)]
 
 +++
