@@ -12,6 +12,8 @@ By Jeremiah Thomas, et al
 
 Created on 2020-05-24
 
+Updated on 2020-05-26
+
 ***
 
 Copyright © Jeremiah Thomas, et al
@@ -62,6 +64,18 @@ Due By *Tuesday* (2020-05-26)
 5. Pick your role in roles.txt; if you want to switch with someone before Wednesday use Slack or e-mail them to discuss.
 6. Add at least 2 ideas—preferably consonant with your role—to pitch_ideas.txt .
 
+---
+Due By *Thursday* (2020-05-28)
+
+7. Make at least 1 meaningful edit to the formal pitch.txt .
+8. Post at least 1 message in each Slack sub-channel associated with your role's deliverables (eg, lead dev would post in the HLD and LLD channels).
+9. Create [deliverable abbreviation]_ideas.txt file in the root directory for each deliverable you are the primary responsible party for (eg, srs_ideas.txt for the customer advocate; note that some of you will not need to create anything); please make sure you use the proper NKMF headers in your text document, use proper UEWSG-style formatting and syntax, and pay attention to the commit messages: they are easy to write from Git GUI or Git Bash and should follow the format I've outlined—if the message doesn't meet the requirements, I will undo your push and you can try the commit/push again (you'll have to rebase).
+
+---
+Due By *Saturday* (2020-05-30)
+
+10. Copyedit of final Pitch document (document specialist only; we're still awaiting *substantive* information from the teacher about filetype and other reqs).
+
 +++
 Ground Rules
 
@@ -81,3 +95,4 @@ Metametadata
 **meta_author**: Jeremiah Thomas
 **meta_generator**: Notepad++
 **meta_created**: 2020-05-24
+**meta_updated**: 2020-05-26
