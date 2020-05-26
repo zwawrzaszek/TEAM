@@ -16,8 +16,8 @@ Overview
 I've worked on a number of projects before but most have either been with a smaller team than this and/or fairly disorganized (mostly the large corporate projects!). I've also not found a lot of solid information on how to design and implement project management; this is, I think, largely due to the unique nature of each project. Nonetheless, here are the roles I have planned, with their tentative descriptions and duties below; ideas are welcome. Please add your name to a role to claim it:
 
 **Project Manager**: Jeremiah Thomas
-**Customer Advocate**: Anna Malmberg
-**Documentation Specialist**:
+**Customer Advocate**:
+**Documentation Specialist**: Anna Malmberg
 **Lead Software Developer**: Zachary Wawrzaszek
 **Lead UI Designer**:
 **Lead Tester**: Stavros Bannoura
