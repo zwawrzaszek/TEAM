@@ -10,6 +10,8 @@ By Jeremiah Thomas
 
 Created on 2020-05-26
 
+Updated on 2020-05-27
+
 +++
 
 Meetings will be held according to the normal weekly schedule; as the project moves forward, meetings may increase or decrease in frequency depending on project needs. Extraordinary meetings will be announced via e-mail at least *1 day* before they take place. Participation is mandatory and all meetings will be recorded.
@@ -24,8 +26,8 @@ Because meetings are currently online, attendees lack a lot of nonverbal and soc
 2. Presentations (varies; PM will select order)
 2.1. Introduction of self/team and scope
 2.2. Deletions and releases since last meeting (unneeded tools/docs, major "resets", deliverables released, etc)
-2.3. Updates on current work (ie, work in progress; be concise but comprehensive)
-2.4. Creation of goals, ideas, and/or future needs (ie, what will get done and what is needed to accomplish it)
+2.3. Updates on current work (ie, work completed but not released; be concise but comprehensive)
+2.4. Creations planned for current or future documents, goals, and/or ideas (ie, what will get done and what is needed to accomplish it)
 2.5. Comments (PM will call for comments, if needed)
 3. Call to close
 3.1. Minutes (DS; create and upload ASAP)
