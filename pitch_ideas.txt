@@ -70,3 +70,13 @@ Examples:
 • You can extract the movies based on these tags, like an online Video rental store, which tags the movie based on genre like mystery, romance, sci-fi, drama, adventure so on.
 • Extracting a picture from the picture folder that is tagged by a label with name and date, like vacation-2000, graduation-2012 birthday-2020.
 • I really liked the Anna’s idea about finding the recipe with the ingredients. We can create a database of food and tag it with ingredients and based on the ingredients, you pull the recipe. For example, you have eggplant, zucchini, tomato or bell pepper. It can pull multiple recipe with these ingredients.
+
+===
+Zachary Wawrzaszek
+
+I'm hoping to clear up some of my confusion during our meeting tomorrow which will help me think of some better ideas and improve my current ones, I am possibly focusing to much on specifics at this point.
+• I believe Jeremiah wants to use a database to store tags that a user would create in the GUI, then the database manages the link between the file that was tagged and the content of the tag itself.
+• I am not sure how we want to handle tag creation. An idea that comes to mind is being able to select the file and having a textarea for the user to input their tag and then a button to transfer the tag and filename seperatley to the database.
+• Again I am not sure how exactly we want to accomplish the transfer of data (between front and back ends) whether we want to use a button that sends the user's tag search request (from a textarea), have the database query for the intended results, and simply return the results from the database and then format them for the GUI.
+• There might be a way to make the search more dynamic like in the base windows 10 file manager how possible results automatically appear as soon as you start to type what you are searching for.
+• We possibly need to take into account the users ability to edit both filenames and their tags as this could make the database managment a little more tricky.
