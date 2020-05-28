@@ -1,6 +1,6 @@
 HLD ideas
 
-https://github.com/bizzlebin/team/docs/hld_ideas.txt
+https://github.com/bizzlebin/team/hld_ideas.txt
 
 ***
 
