@@ -1,0 +1,74 @@
+Agenda 1
+
+For 2020-05-27
+
+https://github.com/bizzlebin/team/resources/agenda_1.txt
+
+***
+
+By Jeremiah Thomas
+
+***
+
+Created on 2020-05-26
+
+///
+I am posting this without change just to give you an idea of what I did to prepare. Yes, I overdid it, unlike my advice: I am a very text-oriented person and like to go over and over the text from multiple angles! Please feel free to use this along with the meeting format to better plan and prepare for future meetings. And, of course, please refer to *Anna's* minutes for the rundown of this particular meeting—I may be the PM, but she keeps the official minutes!
+\\\
+
++++
+Call To Meeting
+
+• I am calling for Meeting 1.1 (2020-05-27) to begin.
+• Please take attendance, Anna.
+
++++
+Greetings
+
+• Thank you for joining in our very first meeting. Sure they're mandatory, but hey—you're here anyways!
+• As per the Meeting Format spec, I will moderate. Use emoji if you want to react; do not comment until I explicitly call for comments. Having a meeting in chat might be new to you but it can be done—and done effectively—if we are well-prepared and observe the procedures I outlined. If there is a long pause, let it be—I will handle it.
+^ I expect these meetings to be 10 minutes on the short end and 20 minutes on the long end. I have my presentation already prepared and I would strongly recommend you do the same in the future: it will save a *lot* of time. Don't overdo it, just spend 10–15 minutes of your own time preparing so we can save an hour of thinking and typing when we're together.
+
++++
+Presentations
+
+• Ok, let's get started with the individual presentations. I know I am putting everybody "on the spot" but I want everyone to have a voice—as well as the experience of no preparation vs preparation (you'll be amazed at the difference next meeting!). Let's go in order of roles, so Anna, start us off with your deletions/releases, updates, and planned creations so far.
+
+...
+
+• Me!
+
+---
+Releases
+
+• Release-wise, the management tools and infrastructure I'm building are coming along nicely. I've already implemented standards for our general writing, for our plaintext headers, and for our meetings. I made a meeting minutes template for our document specialist (DS). And all of you have read the readmes, Roles, and Availability.
+^ I updated the Readme with new assignments to finish out this first week, so please read them carefully. And just earlier today, I put up the draft of our formal Pitch document. All of this has been a lot of work, but it looks like a solid start to me.
+
+---
+Updates
+
+• Update-wise, I have much more that I've already partially completed, including our task list; I'll keep the rest "under wraps" for now but expect to see at least one other helpful release this week while I make sure I don't fall behind in my other class!
+
+---
+Creations
+
+• Creation-wise, I hope to make the task list a collaborative document so we can all work together and ensure it provides a complete view of the project down to the lowest-level increment of time (to be determined; probably the 1-day level).
+• I am setting up future meeting times, namely every Tuesday and Thursday at 20:00 (8 pm); that is something I need a direct input on/need to overcome for my role's goals.
+• Beyond that, I've already put in *30* hours to this class—this week alone!—but I think I'm on track from my perspective; a lot of the PM duties come "up front". So for my last need, as always, let me know how I can make the project flow more smoothly for you.
+
+---
+Comments
+
+• Any comments on my presentation, especially moving to Tuesday and Thursday meetings starting next week?
+
++++
+Call To Close
+
+• I want to thank everyone for doing such a good job already. This is not a small project: when you go from just a few people to a team you don't merely need those extra team members but management, HR, accounting, support staff, and more. Going from 3 people to a team of 10 is more like going from 3 people to 20+.
+^ I'm performing many of those roles—it really is quite a lot—but it is an incredible experience. Know that *your* time is coming, too, and quickly: we're all going to need to keep working hard on this project through to the end.
+• I want to encourage everyone to go beyond the minimums with this project. Don't just get it done—approach it from the perspective of becoming an expert. Ask provocative questions.
+^ For example, why do we use class diagrams? Why do we test an algorithm in abstract? Why should requirements include internal and non-functional requirements for the company and/or team? Read my forum posts for some unique perspective: you don't have to start a fight but you shouldn't accept everything that is trendy or new for the sake of it. Dig, dig, dig.
+^ To that end, I would strongly recommend that you each make a text file of tidbits and ideas you've picked up from your research, including the sources. We can potentially use them for our forum posts and deliverables, And if not, we will have them forever to reference in our own school and work assignments.
+• Alright, that was our meeting. Next time it should be even easier. If a meeting is long, aimless, or boring, we're doing it wrong! See you next Tuesday, unless something changes.
+• I am calling for Meeting 1.1 (2020-05-27) to close.
+• Anna, post your official minutes in the main repo dir as soon as you have them compiled; thanks!
