@@ -1,0 +1,19 @@
+LLD ideas
+
+https://github.com/bizzlebin/team/docs/lld_ideas.txt
+
+***
+
+By Zachary Wawrzaszek, et al
+
+***
+
+Created on 2020-05-28
+
++++
+Description
+
+This is where we will be adding our ideas for the construction of our low level design document
+
++++
+
