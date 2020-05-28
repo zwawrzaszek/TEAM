@@ -1,0 +1,15 @@
+Client.txt 
+
+Who are we selling to ?
+What specific industry that are best suited for the offering?
+After identifying the target market , we have create customer persona.
+Profiles and Personas are based on the info gathered during elicitation
+A persona is both business and user’s goals
+Typical situations or scenarios
+Category of users
+Our client can be divided in my categories : Age, gender, geographic location, interest and occupation.
+Behaviors -the way user interact with feature to solve the problem
+In our case our client is a user who wants to make use of our tag-based file searching software to search their file faster.
+Based on their needs they will use this feature.
+Use cases : A person searching for pictures stored in his PC or any device, based on his previous search it will populate the suggestions.
+
