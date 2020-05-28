@@ -1,6 +1,6 @@
 LLD ideas
 
-https://github.com/bizzlebin/team/docs/lld_ideas.txt
+https://github.com/bizzlebin/team/lld_ideas.txt
 
 ***
 
