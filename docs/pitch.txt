@@ -10,6 +10,8 @@ By Jeremiah Thomas, et al
 
 Created on 2020-05-27
 
+Edited on 2020-05-27
+
 ///
 Our Pitch Ideas got a little far afield of the original goal: to ensure we communicate how our project idea meets the project goals (real business need, database, etc). Rather, it started getting into a lot of topics that will be covered in our SRS, or software requirements specification. This is not necessarily a bad thing—we now have a head start on the SRS!—but I had to *significantly* trim down some of the ideas to make this formal pitch document. As you make your changes, please keep in mind the scope of this pitch—it is not an SRS but more of a memo to corporate executives to "sell" the project—and make sure it retains a clear flow and proper grammar. I've just provided a solid first draft since I don't have any other, singular formal deliverable.
 
@@ -27,3 +29,5 @@ Our proposal is to create a tag-based file manager which stores the metadata, in
 The database itself will also be fully-featured, with business-essential features. We will add the ability to separately restrict tag creation and file tagging to specific groups or users in order to prevent confusion or abuse. Each tag will include an optional description, also protected within the database, which can be used to further illustrate each tag's meaning and usage and aid in tag administration. And because all of this is stored inside a database, tagging operations automatically come with the key benefits of ACID: atomicity, consistency, isolation, durability. Every operation is guaranteed not to harm the integrity of either the database or the filesystem.
 
 Taken together, the new tag-based file manager will address all the shortcomings of other solutions. No business-critical files will be modified in any way nor will any filenames change. No change in the file creation process will slow down the business or overwhelm users. And users can always make use of this system side-by-side with the legacy file managers, simplifying administration. In short, our tag-based file manager will create new opportunities for organization and collaboration by making everyday access to business information simpler, easier, and more intuitive.
+
+I want to further add to the design element of the UI as i feel in the pitch it did not touch upon it much. To be able to sort the elements in the seperate database the UI will need seperate rows and columns that will be responsible for organizing those files. Lets say the user wants to seperate any of the files that are independent of the file manager and he/she needs to know where it shall be stored, the user can then pick what row and column it needs to be added to and complete that task (Stavros Bannoura).
