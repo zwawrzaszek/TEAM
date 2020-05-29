@@ -1,0 +1,19 @@
+SRS ideas 
+
+https://github.com/bizzlebin/team/srs_ideas.txt
+
+***
+
+By Sandhya Joshi
+
+***
+
+Created on 2020-05-28
+
++++
+Description
+
+This is where we will be adding our ideas for the construction of our high level design document
+
+
+Who, what when where, why and how 
