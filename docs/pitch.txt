@@ -1,4 +1,4 @@
-Pitch
+Pitch | TEAM Exists As Metonym
 
 https://github.com/bizzlebin/team/docs/pitch.txt
 
@@ -10,17 +10,14 @@ By Jeremiah Thomas, et al
 
 Created on 2020-05-27
 
-Updated on 2020-05-28
-
 Updated on 2020-05-30
-
 
 +++
 
 Contemporary businesses generate vast amounts of digital information, including documentation for business processes, customer lists, accounting spreadsheets, and more. Efficiently accessing this data, however, can be a problem: only filenames and some filesystem-specific metadata are easily searchable and systems that add information or tags directly to files can cause integrity problems. Additionally, modifications to the files may not be acceptable due to regulatory or other requirements. Clearly, a different solution is required.
 
-Our proposal is to create a tag-based file manager which stores the metadata, in the form of custom tags, in a separate database. Instead of working directly in an operating system's limited file manager, we will offer a clean user interface that can sort based on any number of user-selected tags. The program will remember searches and open with the most recent search displayed to ensure continuity and clarity. It will provide some basic tags and instruction to get users started but otherwise aim at being "invisible", allowing businesses to instantly search, sort, and access important data. Using predictive technologies, the program will start searching while the user is still typing, providing immediate, critical feedback.
+Our proposal is to create a tag-based file manager which stores the metadata, in the form of custom tags, in a separate database. Instead of working directly in an operating system's limited file manager, we will offer a clean user interface that can sort based on any number of user-selected tags. The program will remember searches and open with the most recent search displayed to ensure continuity and clarity. It will provide some basic tags and instruction to get users started but otherwise aim at being "invisible", allowing businesses to instantly search, sort, and access important data. Using predictive technologies, the program will start searching while the user is still typing, providing immediate, crucial feedback.
 
-The database will be loaded with business-critical features including management controls that restrict tag creation and file tagging to specific groups or users to prevent confusion or abuse. Each tag will include an optional description, also protected within the database. Because tagging system is stored inside a database it automatically come with the key benefits of ACID: atomicity, consistency, isolation, durability. Every operation is guaranteed not to harm the integrity of either the main database or the filesystem.
+The database will be loaded with business-critical features including management controls that restrict tag creation and file tagging to specific groups or users to prevent confusion or abuse. Each tag will include an optional description, also protected within the database. Because tags are stored inside the database they automatically come with the key benefits of ACID: atomicity, consistency, isolation, durability. Every operation is guaranteed not to harm the integrity of either the main database or the filesystem.
 
-The new tag-based file manager system will address the shortcomings of other solutions. Business-critical files will never be modified in any way nor will any filenames change. Users will always be able to make use of this system side-by-side with the legacy file managers, simplifying administration. In short, our tag-based file manager will create new opportunities for organization and collaboration by making everyday access to business information simpler, easier, and more intuitive.
+The new tag-based file manager will address the shortcomings of other solutions. Business-critical files will never be modified in any way nor will any filenames change. Users will always be able to make use of this system side-by-side with the legacy file managers, simplifying administration. In short, our tag-based file manager will create new opportunities for organization and collaboration by making everyday access to business information simpler, easier, and more intuitive.
