@@ -12,7 +12,7 @@ By Jeremiah Thomas, et al
 
 Created on 2020-05-24
 
-Updated on 2020-05-26
+Updated on 2020-05-30
 
 ***
 
@@ -76,6 +76,47 @@ Due By *Saturday* (2020-05-30)
 
 10. Copyedit of final Pitch document (document specialist only; we're still awaiting *substantive* information from the teacher about filetype and other reqs).
 
+===
+Week 2 (2020-05-31)
+
+---
+Due By Tuesday (2020-06-02)
+
+1. SRS Ideas.
+1.1. Propose at least 1 business requirement (SRS 3; please keep it to clear but concise bullet points as far as possible).
+1.2. Propose at least 1 functional requirement (SRS 4).
+1.3. Propose at least 1 non-functional requirement (SRS 5).
+1.3. Propose at least 1 interface requirement (SRS "6" (numbering is borked)).
+1.3. Propose at least 1 performance requirement (SRS "7").
+2. HLD Ideas work.
+2.1. Propose at least 1 design issue (HLD 2.2).
+2.2. Propose at least 1 security design detail (HLD 3.1).
+2.2. Propose at least 1 UI design detail (HLD 3.3).
+2.2. Propose at least 1 internal interface design detail (HLD 3.4).
+2.2. Propose at least 1 external interface design detail (HLD 3.5).
+3. Meeting prep.
+3.1. Prepare your personal agenda (applies to every meeting; keep it short and view the meeting format spec for hints).
+3.2. E-mail PM any agenda/vote items (applies to every meeting).
+3.2. DB vote: research and choose top DB out of SQLite, Postgres, and MariaDB (vote during meeting).
+3.3. Person #6 expulsion vote: still no contact as of Sunday evening (vote during meeting).
+
+---
+Due By Thursday (2020-06-04)
+
+4. Client: clean up file, add more information (CA only).
+5. Design Overview: create very-high-level conceptual drawing (LSD only; consider SVG or other vector format or just scan a drawing).
+6. Tests: pick at least 5 types of tests and write a short paragraph detailing why each will help the app succeed (LT only).
+7. Requirements: create traceability matrix from all proposed SRS requirements (DS only; find a tabular method that is comprehensive and suitable for plaintext, whittling down any fields we don't need).
+8. SRS: complete Intro (1) and General Description (2) (CA only; formal, in /docs).
+9. HLD: complete Intro (1) (LSD only; formal, in /docs).
+10. Meeting prep.
+
+---
+Due By Saturday (2020-06-06)
+
+11. Task List: add exactly *3* items.
+12. Check formatting on all documents (DS only).
+
 +++
 Ground Rules
 
@@ -95,4 +136,4 @@ Metametadata
 **meta_author**: Jeremiah Thomas
 **meta_generator**: Notepad++
 **meta_created**: 2020-05-24
-**meta_updated**: 2020-05-26
+**meta_updated**: 2020-05-31
