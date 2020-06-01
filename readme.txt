@@ -30,18 +30,6 @@ Welcome to the project readme for our team, tentatively named...TEAM (TEAM Exist
 Keep in mind that this is a public repo so we won't be posting any e-mail addresses, links to our other collaboration tools, etc. We'll have regular group meetings (make your questions known then if possible so everyone can benefit from the answers) and some [emotion and thought] communication elsewhere but everything of substance should be committed here—even the meeting minutes. By doing the majority of our work in the open on Git, we will not only have better control of versioning but something we can all share in the future on a résumé; I plan to keep this repo open and public indefinitely.
 
 +++
-Project Directories And Files
-
-**docs/**: All of the deliverables
-**resources/**: All of the tools and information—or links to them in the readme—that we will use to format our documents throughout the project; consider this to be the general "help" directory
-
-**readme.txt**: If you're reading this, you know what and where it is!
-**availability.txt**: Please keep your availability updated
-**roles.txt**: Group roles and assignments
-**change_requests.txt**: After requirements are set, change requests must be made formally
-**pitch_ideas.txt**: Ideas to further "flesh out" the product pitch
-
-+++
 Schedule
 
 ===
@@ -82,13 +70,13 @@ Week 2 (2020-05-31)
 ---
 Due By Tuesday (2020-06-02)
 
-1. SRS Ideas.
+1. SRS Ideas work (add directly to text file).
 1.1. Propose at least 1 business requirement (SRS 3; please keep it to clear but concise bullet points as far as possible).
 1.2. Propose at least 1 functional requirement (SRS 4).
 1.3. Propose at least 1 non-functional requirement (SRS 5).
 1.3. Propose at least 1 interface requirement (SRS "6" (numbering is borked)).
 1.3. Propose at least 1 performance requirement (SRS "7").
-2. HLD Ideas work.
+2. HLD Ideas work (add directly to text file).
 2.1. Propose at least 1 design issue (HLD 2.2).
 2.2. Propose at least 1 security design detail (HLD 3.1).
 2.2. Propose at least 1 UI design detail (HLD 3.3).
@@ -136,4 +124,4 @@ Metametadata
 **meta_author**: Jeremiah Thomas
 **meta_generator**: Notepad++
 **meta_created**: 2020-05-24
-**meta_updated**: 2020-05-31
+**meta_updated**: 2020-06-01
