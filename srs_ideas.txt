@@ -48,6 +48,32 @@ Performance requirement:
 • System shall keep all tags until deleted by user or administrator
 • System shall not impact performance of other applications
 
+===
+
+Stavros Bannoura
+
+1. SRS Ideas.
+1.1. Propose at least 1 business requirement (SRS 3; please keep it to clear but concise bullet points as far as possible).
+-Should effectively create a file tag management system that ensures reliability, usability and intuitive capabilities and features. 
+-This means a user should be capable of learning how to use the system fairly quickly so that the user can get on to the important stuff.
+
+1.2. Propose at least 1 functional requirement (SRS 4).
+-What are the main features that we want for this application? 
+-How can prioritize the feature list? (following MOSCOW)
+
+1.3. Propose at least 1 non-functional requirement (SRS 5).
+-How can we make the system reliable? What are the implications to take?
+-What can we do to make the app secure?
+-The application must be able to support users effectively organizing files. 
+
+1.3. Propose at least 1 interface requirement (SRS "6" (numbering is borked)).
+-How can we smoothly connect to other databases?
+-What type of inheritance will we be using? 
+
+1.3. Propose at least 1 performance requirement (SRS "7").
+-How much possible capacity can the database hold?
+-Whats the type of speed that we want for this application?
+-How will we optimize the application to be effective?
 
 
 	
