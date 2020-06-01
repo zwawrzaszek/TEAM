@@ -10,6 +10,8 @@ By Sandhya Joshi
 
 Created on 2020-05-28
 
+Updated on 2020-06-01
+
 +++
 Description
 
@@ -17,3 +19,35 @@ This is where we will be adding our ideas for the construction of our high level
 
 
 Who, what when where, why and how 
+
+===
+Anna Malmberg
+
+Business requirements:
+• Insurance agent shall be able to log in to the system and find related documents by using keywords related to the client or project
+• System shall create a client and project specific tags when a new client or project is created
+• Managers shall be able to create additional tags that their group requires
+• Tags shall stay assigned to document if moved to a different project or directory
+• Project relevant tags shall be assigned to any document that is added to a tagged project folder
+• System assigned tags shall only be deleted by managers, agent assigned tags may be deleted by agent
+• Tags shall not allow users to access documents that they do not have permissions to access
+
+Functional requirements:
+• Administrator log in shall be required to manage the tag database
+• Windows log in shall be recognized when adding tags to shared files or folders
+
+Non-functional requirements:
+• System shall produce a report that lists number of current tags, showing days since last used and number of current documents using tag
+
+Interface requirements:
+• User interface for adding personal tags shall be on mouse-right-click drop down
+• User interface for managing personal tags shall require log in
+• User Interface shall offer options for personalized color schemes for tags
+
+Performance requirement:
+• System shall keep all tags until deleted by user or administrator
+• System shall not impact performance of other applications
+
+
+
+	
