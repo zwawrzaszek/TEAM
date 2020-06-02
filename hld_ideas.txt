@@ -10,7 +10,7 @@ By Zachary Wawrzaszek, et al
 
 Created on 2020-05-28
 
-Updated on 2020-06-01
+Updated on 2020-06-02
 
 +++
 Description
@@ -75,3 +75,32 @@ Internal interface design detail:
 
 External interface design detail:
 • Might want to create a way to interface with computers default file manager to expidite file transfer process
+
+===
+Stavros Bannoura
+
+2. HLD Ideas work. (will add more information on 2020-06-02)
+2.1. Propose at least 1 design issue (HLD 2.2).
+-Should be cross platform possibly
+-How will the user want to seek IT-help if needed?
+
+2.2. Propose at least 1 security design detail (HLD 3.1).
+-Provide options to reset password every 30 days
+-Provide an account
+-Provide user certain access or priviliges 
+-Provide an account reset if being used by multiple computers that are unassociated with you.
+-Provide 2FA (2-Factor Authentication) and other security protocols for security and mobilility.
+
+2.2. Propose at least 1 UI design detail (HLD 3.3).
+-After creating the tags display a popup showing that it is tagged.
+-Pick a color scheme that attracts users
+-Allow for a night mode feature for comfort of the user if picked. 
+
+2.2. Propose at least 1 internal interface design detail (HLD 3.4).
+-How can we handle the different database ID's
+-What will be the normality of the database forms? E.g. 1NF, 2NF, Etc. 
+
+2.2. Propose at least 1 external interface design detail (HLD 3.5).
+-Allow for Cloud storage
+
+===
