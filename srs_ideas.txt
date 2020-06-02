@@ -99,4 +99,33 @@ Performance requirements:
 • Software will be able to pull and display files based on search criteria in a reasonable amount of time (less than 15 seconds?)
 • Software will be relativley lightweight (not hog processing power) and not affect other business necessary operations that must also be performed
 
-	
+===============
+Sandhya Joshi
+
+Business Requirement
+•	Insurance Company wants to maintain its Quality of Service by providing best customer care service in timely manner.
+•	Insurance Company wants to maintain all its customer's data so that it can be searched efficiently and effectively.
+•	Insurance Company wants to maintain Customer Retention rate by providing the healthcare incentives to the customers.
+
+Functional requirement.
+•	System shall maintain a user portal for policy members.
+•	Customer care representative shall be able to retrieve the policy holder information using a keyword from their database.
+•	Customer care representative shall be able to retrieve all the case history by searching caseId or tag number.
+•	System shall assign reward points to policy holder based on their medical history and lifestyle.
+
+Non-Functional Requirement.
+•	System should be available 24x7 for all users.
+•	Database system should perform database maintenance every midnight.
+•	Customer representative should follow HIPAA regulations.
+
+Interface  requirement.
+•	UI should able search using drop down menu or by typing and searching the information.
+•	UI should be able to connect to the database.
+
+Performance requirement.
+•	All the previous tags and searches should be saved.
+•	What is the maximum capacity of the database are we creating?
+•	Can it survive data overload ?
+
+
+
