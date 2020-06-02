@@ -1,43 +1,41 @@
-Meeting Minutes 2020-05-27
+Meeting Minutes
+
+https://github.com/bizzlebin/team/meeting_minutes/meeting_minutes_1.1.txt
 
 ***
 
-By AMM
+By Anna Malmberg, et al
 
 ***
 
 Created on 2020-05-27
 
-***
-
 +++
 Summary
 
-Initial meeting of TEAM Exists as Metonym, brief discussion of progress so far.
-• Call to order (Jeremiah Thomas) 20:00
+Initial meeting of TEAM Exists As Metonym, brief discussion of progress so far.
 
+***Call To Order** Jeremiah Thomas 20:00
 
 +++
 Attendance
 
 **Present**: Anna Malmberg, Sandhya Joshi, Stavros Bannoura, Zachary Wawrzaszek, Jeremiah Thomas
-**Absent**: none
+**Absent**: Jack Kagan
 
 +++
 Presentations
 
-===
+**Anna** Suggest creation of separate folder for meeting minutes
+**Sandhya** Working on project management studies
+**Stavros** Reading SRS and HDL
+**Zachary** Corrections to pitch, plan to create blank documents with header for HLD and LLD by Saturday
+**Jeremiah** Implemented format for writing, headers and meetings. Created minutes template, updated README document assignment, draft of pitch. Suggest move meetings to Tuesdays and Thursdays at 20:00
 
-Anna: Suggest creation of separate folder for meeting minutes
-Sandhya: Working on project management studies
-Stavros: Reading SRS and HDL
-Zachary: Corrections to pitch, plan to create blank documents with header for HLD and LLD by Saturday
-Jeremiah: Implemented format for writing, headers and meetings. Created minutes template, updated README document assignment, draft of pitch. Suggest move meetings to Tuesdays and Thursdays at 20:00
-
-** Vote on Change Meeting Dates**: Pass
+**Vote On Change Meeting Dates** Pass
 
 +++
-Adjournment:
-• Call to close (Jeremiah Thomas) 20:31
-• Next meeting scheduled for 2020-06-02 20:00
-"""
+Adjournment
+
+***Call To Close*** Jeremiah Thomas 20:31
+***Next Meeting Scheduled** 2020-06-02 20:00
