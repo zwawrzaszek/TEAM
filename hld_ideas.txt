@@ -79,7 +79,7 @@ External interface design detail:
 ===
 Stavros Bannoura
 
-2. HLD Ideas work. (will add more information on 2020-06-02)
+2. HLD Ideas work.
 2.1. Propose at least 1 design issue (HLD 2.2).
 -Should be cross platform possibly
 -How will the user want to seek IT-help if needed?
