@@ -25,9 +25,9 @@ All rights reserved.
 +++
 Welcome
 
-Welcome to the project readme for our team, tentatively named...TEAM (TEAM Exists As Metonym)! This will be our "home base" for the CSC 154 documentation project and todo list. I will try to keep most of the key information here because we have such a small group. However, as needed, I will break out some content into other files, which I will prominently note here, including any graphical representation we feel will be helpful. 
+Welcome to the project readme for our team, tentatively named...TEAM (TEAM Exists As Metonym)! This will be our "home base" for the CSC 154 documentation project and todo list. I will try to keep most of the key information here because we have such a small group. However, as needed, I will break out some content into other files. 
 
-Keep in mind that this is a public repo so we won't be posting any e-mail addresses, links to our other collaboration tools, etc. We'll have regular group meetings (make your questions known then if possible so everyone can benefit from the answers) and some [emotion and thought] communication elsewhere but everything of substance should be committed here—even the meeting minutes. By doing the majority of our work in the open on Git, we will not only have better control of versioning but something we can all share in the future on a résumé; I plan to keep this repo open and public indefinitely.
+Keep in mind that this is a public repo so we won't be posting any e-mail addresses, links to our other collaboration tools, etc. We'll have regular group meetings and some [emotion and thought] communication elsewhere but everything of substance should be committed here—even the meeting minutes. By doing the majority of our work in the open on Git, we will not only have better control of versioning but something we can all share in the future on a résumé; I plan to keep this repo open and public indefinitely.
 
 +++
 Schedule
@@ -104,6 +104,23 @@ Due By Saturday (2020-06-06)
 
 11. Task List: add exactly *3* items.
 12. Check formatting on all documents (DS only).
+
+===
+Week 3 (2020-06-07)
+
+---
+Due By Tuesday (2020-06-09)
+
+1. SRS (CA only).
+1.1. Pick at least 20 requirements spanning the required categories (read SRS spec for list).
+1.2. Describe each requirement clearly in 1 sentence.
+1.3. Create M[o]SC[o]W for requirements.
+1.4. Add paragraph describing how we used the collaboration tool categories (new division: 2.4).
+2. HLD (LSD and LT only).
+2.1. Settle on base classes and/or functions for entire project (division 3.10).
+2.2. Add paragraph describing how we used the collaboration tool categories (add to division 2.3.).
+3. UI wireframe or mockup (LUID only).
+4. First user story (DS only).
 
 +++
 Ground Rules
