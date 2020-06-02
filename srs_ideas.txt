@@ -75,5 +75,28 @@ Stavros Bannoura
 -Whats the type of speed that we want for this application?
 -How will we optimize the application to be effective?
 
+===
+Zachary Wawrzaszek
+
+Business requirements:
+- Software shall take into account HIPPA laws and all data and transfers of data shall be completley secure (encryption?)
+- Software will be be simplistic in design allowing for people to be quickly trained (Consider making short instruction manual?)
+
+Functional requirements:
+- Relevant employee login will be required to delete, edit, and create tags
+- Files that have been returned from a tag search will have additional methods available to sort based on filetype?
+- Files that have been searched will be support drag and drop?
+
+Nonfunctional requirements:
+- Software must be able to support many (100s ?) users/employees ability to create, access, and modify tags simultaneously
+- Software must keep all tags up to date in real time as they are added, deleted, modified
+
+Interface requirements:
+- GUI will include a centralized (easily spotted) search bar for the searching of tags
+- GUI will include history tab for recently searched and accessed tags/files
+
+Performance requirements:
+- Software will be able to pull and display files based on search criteria in a reasonable amount of time (less than 15 seconds?)
+- Software will not be relativley lightweight (not hog processing power) and not affect other business necessary operations that must also be performed
 
 	
