@@ -101,6 +101,6 @@ Stavros Bannoura
 -What will be the normality of the database forms? E.g. 1NF, 2NF, Etc. 
 
 2.2. Propose at least 1 external interface design detail (HLD 3.5).
--Allow for Cloud storage
+-Allow for Cloud storages
 
 ===
