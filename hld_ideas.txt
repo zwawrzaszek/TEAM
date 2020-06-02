@@ -45,3 +45,33 @@ Internal interface design detail:
 External interface design detail:
 • Open control “pad” to create new tag
 • Mouse or touch pad for interface with humans
+
+===
+Zachary Wawrzaszek
+
+Design issues:
+• Max character length for tags
+• How will handle the adding of files to our application? (copy/paste, drag/drop)
+• Include a button that interfaces with the default file manager to copy entire heirarchy into our application?
+
+Security design details:
+• When tags are transferred to the database the transfer (network?) itself needs to be secure (encryption?)
+• Unique login ID and passwords for every employee
+• Login information will be specific to our application and separate from overall login
+• Varied privleges for different levels of employees?
+• Force password to be of certain length (10 chars?) include a capital, lowercase, number
+• Force change of password periodically (6 months?)
+
+UI design detail:
+• Have files and folder show up in list format like that of default file manager
+• Allow for selecting more than one file/folder at a time with drag click or shift click to tag all at once
+• Once a file/folder is selected there should be a text area where the user can enter their tag description
+• Have a menu bar located at the top for navigating options?
+
+Internal interface design detail:
+• I believe currently the only internal interface we have is between the GUI and the database
+• May need a way for database to have a File ID linked with multiple different tags?
+• May need a way for database to have a tag linked with multiple File ID's?
+
+External interface design detail:
+• Might want to create a way to interface with computers default file manager to expidite file transfer process
