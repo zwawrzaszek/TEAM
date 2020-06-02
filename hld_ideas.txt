@@ -10,9 +10,38 @@ By Zachary Wawrzaszek, et al
 
 Created on 2020-05-28
 
+Updated on 2020-06-01
+
 +++
 Description
 
 This is where we will be adding our ideas for the construction of our high level design document
 
 +++
+
+===
+Anna Malmberg
+
+Design issues:
+• Supported platforms (e.g. windows only)
+• Supported devices (e.g. support for mobile)
+• Levels of tags (tags for both folders and documents)
+• Inheritance (should folder tags be inherited to documents)
+• Max number of tags per document
+
+Security Design detail:
+• Regular user log in integrated with network log in
+• Administrator access to database
+• Elevated access for managers
+• Create new tags from “pad”, required log in
+
+UI Design detai:
+• Add tag should be option on right click, alternately have a “pad” available for users to drag and drop tags onto documents
+• Creating related tags
+ 
+Internal interface design detail: 
+• Tag interface with database – send information to database of location that tag has been placed, database will need some type or arbitrary ID system for documents instead of document names so that it does not store confidential information
+
+External interface design detail:
+• Open control “pad” to create new tag
+• Mouse or touch pad for interface with humans

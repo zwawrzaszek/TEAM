@@ -48,6 +48,84 @@ Performance requirement:
 • System shall keep all tags until deleted by user or administrator
 • System shall not impact performance of other applications
 
+===
+
+Stavros Bannoura
+
+1. SRS Ideas.
+1.1. Propose at least 1 business requirement (SRS 3; please keep it to clear but concise bullet points as far as possible).
+-Should effectively create a file tag management system that ensures reliability, usability and intuitive capabilities and features. 
+-This means a user should be capable of learning how to use the system fairly quickly so that the user can get on to the important stuff.
+
+1.2. Propose at least 1 functional requirement (SRS 4).
+-What are the main features that we want for this application? 
+-How can prioritize the feature list? (following MOSCOW)
+
+1.3. Propose at least 1 non-functional requirement (SRS 5).
+-How can we make the system reliable? What are the implications to take?
+-What can we do to make the app secure?
+-The application must be able to support users effectively organizing files. 
+
+1.3. Propose at least 1 interface requirement (SRS "6" (numbering is borked)).
+-How can we smoothly connect to other databases?
+-What type of inheritance will we be using? 
+
+1.3. Propose at least 1 performance requirement (SRS "7").
+-How much possible capacity can the database hold?
+-Whats the type of speed that we want for this application?
+-How will we optimize the application to be effective?
+
+===
+Zachary Wawrzaszek
+
+Business requirements:
+• Software shall take into account HIPPA laws and all data and transfers of data shall be completley secure (encryption?)
+• Software will be be simplistic in design allowing for people to be quickly trained (Consider making short instruction manual?)
+
+Functional requirements:
+• Relevant employee login will be required to delete, edit, and create tags
+• Files that have been returned from a tag search will have additional methods available to sort based on filetype?
+• Files that have been searched will be support drag and drop?
+
+Nonfunctional requirements:
+• Software must be able to support many (100s ?) users/employees ability to create, access, and modify tags simultaneously
+• Software must keep all tags up to date in real time as they are added, deleted, modified
+
+Interface requirements:
+• GUI will include a centralized (easily spotted) search bar for the searching of tags
+• GUI will include history tab for recently searched and accessed tags/files
+
+Performance requirements:
+• Software will be able to pull and display files based on search criteria in a reasonable amount of time (less than 15 seconds?)
+• Software will be relativley lightweight (not hog processing power) and not affect other business necessary operations that must also be performed
+
+===============
+Sandhya Joshi
+
+Business Requirement
+•	Insurance Company wants to maintain its Quality of Service by providing best customer care service in timely manner.
+•	Insurance Company wants to maintain all its customer's data so that it can be searched efficiently and effectively.
+•	Insurance Company wants to maintain Customer Retention rate by providing the healthcare incentives to the customers.
+
+Functional requirement.
+•	System shall maintain a user portal for policy members.
+•	Customer care representative shall be able to retrieve the policy holder information using a keyword from their database.
+•	Customer care representative shall be able to retrieve all the case history by searching caseId or tag number.
+•	System shall assign reward points to policy holder based on their medical history and lifestyle.
+
+Non-Functional Requirement.
+•	System should be available 24x7 for all users.
+•	Database system should perform database maintenance every midnight.
+•	Customer representative should follow HIPAA regulations.
+
+Interface  requirement.
+•	UI should able search using drop down menu or by typing and searching the information.
+•	UI should be able to connect to the database.
+
+Performance requirement.
+•	All the previous tags and searches should be saved.
+•	What is the maximum capacity of the database are we creating?
+•	Can it survive data overload ?
 
 
-	
+
