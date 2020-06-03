@@ -10,7 +10,7 @@ By Sandhya Joshi
 
 Created on 2020-05-28
 
-Updated on 2020-06-01
+Updated on 2020-06-02
 
 +++
 Description
@@ -127,5 +127,31 @@ Performance requirement.
 •	What is the maximum capacity of the database are we creating?
 •	Can it survive data overload ?
 
+===
+Jeremiah Thomas
 
+---
+Business Requirement
 
+• Find files when filename, filetype, and location are unknown
+
+---
+Functional Requirement
+
+• Produce regular reports on most popular tags, searches (tag combos)
+
+---
+Non-Functional Requirement
+
+• Make no changes to any file or file's metadata
+
+---
+Interface Requirement
+
+• Main pane must be able to change target directory
+• Secondary pane must have a check box is allow/disallow searching subdirectories
+
+---
+Performance Requirement
+
+• Start searching in n seconds after a tag match is guessed but the user is still typing
