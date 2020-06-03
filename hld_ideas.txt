@@ -106,8 +106,27 @@ Stavros Bannoura
 ===
 Jeremiah Thomas
 
-**Design issue**: We'll have to put in more work because we're building our own UI and can't bootstrap on the native file managers; however, this gives us more flexibility, control, and speed
-**Security design detail**: Support user groups, not merely individual accounts
-**UI design detail**: Provide list of filesystem metadata that we want to show in results (eg, last modified timestamp, created timestamp?) as the app is supposed to make sorting easier, not harder
-**Internal interface design detail**: Should we handle sorting in the DB or dump into Python and then sort?
-**External interface design detail**: What module will we use to access the filesystem?
+---
+Design Issue
+
+• We'll have to put in more work because we're building our own UI and can't bootstrap on the native file managers; however, this gives us more flexibility, control, and speed
+
+---
+Security Design Detail
+
+• Support user groups, not merely individual accounts
+
+---
+UI Design Detail
+
+• Provide list of filesystem metadata that we want to show in results (eg, last modified timestamp, created timestamp?) as the app is supposed to make sorting easier, not harder
+
+---
+Internal Interface Design Detail
+
+• Should we handle sorting in the DB or dump into Python and then sort?
+
+---
+External Interface Design Detail
+
+• What module will we use to access the filesystem?
