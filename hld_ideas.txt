@@ -80,27 +80,27 @@ External interface design detail:
 Stavros Bannoura
  
 Design Issue:
-* Should be cross platform possibly
-* How will the user want to seek IT-help if needed?
+• Should be cross platform possibly
+• How will the user want to seek IT-help if needed?
 
 Security design detail:
-* Provide options to reset password every 30 days
-* Provide an account
-* Provide user certain access or priviliges 
-* Provide an account reset if being used by multiple computers that are unassociated with you.
-* Provide 2FA (2-Factor Authentication) and other security protocols for security and mobilility.
+• Provide options to reset password every 30 days
+• Provide an account
+• Provide user certain access or priviliges 
+• Provide an account reset if being used by multiple computers that are unassociated with you.
+• Provide 2FA (2-Factor Authentication) and other security protocols for security and mobilility.
  
 UI design detail:
-* After creating the tags display a popup showing that it is tagged.
-* Pick a color scheme that attracts users
-* Allow for a night mode feature for comfort of the user if picked. 
+• After creating the tags display a popup showing that it is tagged.
+• Pick a color scheme that attracts users
+• Allow for a night mode feature for comfort of the user if picked. 
  
  Internal interface design detail:
-* How can we handle the different database ID's
-* What will be the normality of the database forms? E.g. 1NF, 2NF, Etc. 
+• How can we handle the different database ID's
+• What will be the normality of the database forms? E.g. 1NF, 2NF, Etc. 
 
  External interface design detail: 
-* Allow for Cloud storages
+• Allow for Cloud storages
 
 ===
 Jeremiah Thomas
