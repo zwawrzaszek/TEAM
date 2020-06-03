@@ -118,9 +118,28 @@ Due By Tuesday (2020-06-09)
 1.4. Add paragraph describing how we used the collaboration tool categories (new division: 2.4).
 2. HLD (LSD and LT only).
 2.1. Settle on base classes and/or functions for entire project (division 3.10).
-2.2. Add paragraph describing how we used the collaboration tool categories (add to division 2.3.).
+2.2. Add paragraph describing how we used the collaboration tool categories (add to division 2.3).
 3. UI wireframe or mockup (LUID only).
 4. First user story (DS only).
+5. Meeting prep.
+5.1. Vote on which leg of hierarchy to use for LLD.
+
+---
+Due By Thursday (2020-06-11)
+
+6. First use case (DS only).
+7. Sequence diagram for 1 SRS req (LUID only).
+8. LLD.
+8.1. Add 1 class idea to LLD Ideas.
+8.2. Add DB information to LLD (LT only).
+9. Meeting prep.
+
+---
+Due By Saturday (2020-06-13)
+
+10. First HLD UML diagram (LUID only).
+11. Pick and list all classes in LLD ideas (LT only).
+12. Check formatting on all documents (DS only).
 
 +++
 Ground Rules
