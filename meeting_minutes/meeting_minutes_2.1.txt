@@ -1,0 +1,42 @@
+Meeting Minutes
+
+https://github.com/bizzlebin/team/meeting_minutes/meeting_minutes_2.1.txt
+
+***
+
+By Anna Malmberg, et al
+
+***
+
+Created on 2020-06-02
+
++++
+Summary
+
+Tuesday meeting of TEAM Exists As Metonym, to discuss progress and ideas for SRS and HLD and vote on database to be used for project. Welcome Jack to project group.
+
+***Call To Order**: Jeremiah Thomas 20:00
+
++++
+Attendance
+
+**Present**: Anna Malmberg, Sandhya Joshi, Stavros Bannoura, Zachary Wawrzaszek, Jeremiah Thomas, Jack Kagan
+**Absent**: None
+
++++
+Presentations
+
+**Anna**: Working on some ideas for a traceability matrix that will function with UEWSG parameters, create numbering system for requirements as part of matrix, will create a glossary ideas document
+**Sandhya**: Started looking at SRS document format from Blackboard
+**Stavros**: Working on task testing ideas
+**Zachary**: Working on a basic model for the HLD and a draft for the intro, preparing to start working on base classes and fuctions
+**Jack**: Excused
+**Jeremiah**: Posted agenda_1 format for meeting preparation, posted week 2 & 3 tasks
+
+**Vote On Database Options**: Anna: Postgres or MariaDB, Sandhya: SQLite, Stavros: SQLite, Zachary: Postgres, Jack: SQLite, Jeremiah: SQLite. SQLite adapted as database for project.
+
++++
+Adjournment
+
+***Call To Close***: Jeremiah Thomas 20:25
+***Next Meeting Scheduled** 2020-06-04 20:00
