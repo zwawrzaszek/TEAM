@@ -26,7 +26,7 @@ Attendance
 +++
 Presentations
 
-**Anna**: Working on some ideas for a traceability matrix that will function with UEWSG parameters, create numbering system for requirements as part of matrix, will create a glossary ideas document
+**Anna**: Working on some ideas for a traceability matrix that will function with UEWSG rules, create numbering system for requirements as part of matrix, will create a glossary ideas document
 **Sandhya**: Started looking at SRS document format from Blackboard
 **Stavros**: Working on task testing ideas
 **Zachary**: Working on a basic model for the HLD and a draft for the intro, preparing to start working on base classes and fuctions
