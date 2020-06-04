@@ -1,4 +1,4 @@
-Meeting Minutes
+Meeting Minutes 2.1
 
 https://github.com/bizzlebin/team/meeting_minutes/meeting_minutes_2.1.txt
 
@@ -10,12 +10,17 @@ By Anna Malmberg, et al
 
 Created on 2020-06-02
 
+Updated on 2020-06-03
+
++++
+Meeting Minutes [2020-06-02]
+
 +++
 Summary
 
 Tuesday meeting of TEAM Exists As Metonym, to discuss progress and ideas for SRS and HLD and vote on database to be used for project. Welcome Jack to project group.
 
-***Call To Order**: Jeremiah Thomas 20:00
+**Call To Order**: Jeremiah Thomas 20:00
 
 +++
 Attendance
@@ -26,17 +31,17 @@ Attendance
 +++
 Presentations
 
-**Anna**: Working on some ideas for a traceability matrix that will function with UEWSG rules, create numbering system for requirements as part of matrix, will create a glossary ideas document
+**Anna**: Started working on some ideas for a traceability matrix that will function with UEWSG rules, including create numbering system for requirements, will create a glossary ideas document
 **Sandhya**: Started looking at SRS document format from Blackboard
-**Stavros**: Working on task testing ideas
-**Zachary**: Working on a basic model for the HLD and a draft for the intro, preparing to start working on base classes and fuctions
+**Stavros**: Started working on task testing ideas
+**Zachary**: Started working on a basic model for the HLD and a draft for the intro, prepared to start working on base classes and fuctions
 **Jack**: Excused
-**Jeremiah**: Posted agenda_1 format for meeting preparation, posted week 2 & 3 tasks
+**Jeremiah**: Released agenda_1 format for meeting preparation, and week 2 & 3 tasks
 
-**Vote On Database Options**: Anna: Postgres or MariaDB, Sandhya: SQLite, Stavros: SQLite, Zachary: Postgres, Jack: SQLite, Jeremiah: SQLite. SQLite adapted as database for project.
+**Vote on database options**: Anna: Postgres or MariaDB, Sandhya: SQLite, Stavros: SQLite, Zachary: Postgres, Jack: SQLite, Jeremiah: SQLite. SQLite adapted as database for project.
 
 +++
 Adjournment
 
-***Call To Close***: Jeremiah Thomas 20:25
-***Next Meeting Scheduled** 2020-06-04 20:00
+**Call To Close**: Jeremiah Thomas 20:25
+**Next Meeting Scheduled** 2020-06-04 20:00
