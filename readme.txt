@@ -103,7 +103,8 @@ Due By Thursday (2020-06-04)
 Due By Saturday (2020-06-06)
 
 11. Task List: add exactly *3* items.
-12. Check formatting on all documents (DS only).
+12. Glossary: add at least *3* items.
+13. Check formatting on all documents (DS only).
 
 ===
 Week 3 (2020-06-07)
@@ -160,4 +161,4 @@ Metametadata
 **meta_author**: Jeremiah Thomas
 **meta_generator**: Notepad++
 **meta_created**: 2020-05-24
-**meta_updated**: 2020-06-01
+**meta_updated**: 2020-06-04
