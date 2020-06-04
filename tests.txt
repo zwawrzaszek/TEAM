@@ -1,6 +1,6 @@
 Test ideas
 
-https://github.com/bizzlebin/team/tests.txt
+https://github.com/Bizzlebin/TEAM/blob/master/tests.txt
 
 ***
 
@@ -11,13 +11,15 @@ By Stavros Bannoura, et al
 Created on 2020-06-04
 
 +++
+
 Description
 
-This is where we will be adding our ideas for the construction of our Testing ideas and methods. 
+This is where we will be adding our testing methods to use that best fits the project. 
 
 +++
 
 ===
+
 Stavros Bannoura
 
 Interface Testing:
@@ -53,3 +55,5 @@ Even after performing many tests and deciding certain areas work or need fixing,
 the entire software. It is best to perform an alpha test because its important to look back at all the erros and issues that were given and documented for later. This is typically
 done during the last phase of development and in responsbility to the developers. This is because we need to know for sure that when we release the product to the client for real world use
 that he/she gets an error free software app. Alpha testing is usually done before Beta testing, but it does come after and will need to be performed. 
+
+===
