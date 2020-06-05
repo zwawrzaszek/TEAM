@@ -1,0 +1,284 @@
+SRS Draft | TEAM Exists As Metonym
+
+https://github.com/bizzlebin/team/docs/srs_draft.txt
+
+***
+
+By Sandhya Joshi
+
+***
+
+Created on 2020-06-04
+
++++
+Description
+
+All the ideas and changes are made in this document.
+
++++
+Table Of Contents
+
+1. Introduction
+1.1. Purpose
+1.2. Scope Of This Document
+1.3. Definitions, Acronyms, And Abbreviations
+1.4. Overview
+1.5. Business Context
+2. General Description
+2.1. Product Features/Functions
+2.2. User Characteristics
+2.3. General Constraints
+3. Business Requirements
+4. Functional Requirements
+5. Interface Requirements
+5.1. User Interfaces
+5.1.1. GUI
+5.1.2. CLI
+5.1.3. API
+5.2. Hardware Interfaces
+5.3 Communication Interfaces
+5.4 Software Interfaces
+6. Performance Requirements
+7. Other Non-Functional Attributes
+7.1. Security
+7.2. Reliability
+7.3. Maintainability
+7.4. Portability
+7.5. Resource Utilization
+7.6. Serviceability
+8. Operational Scenarios
+8.1. Scenario A
+8.2. Scenario B
+8.3. Scenario C
+9. Use Case And User Stories
+10. Sequence Diagrams
+11. Appendices
+11.1. MOSCOW
+11.2. Procedures For Project Requirement Changes
+11.3. Schedule
+11.4. Requirements Traceability Matrix
+11.5. Verification And Validation Testing Document
+
++++
+1. Introduction
+
+**Team name**: TEAM Exists As Metonym
+
+**Project manager**: Jeremiah Thomas
+**Documentation specialist**: Anna Malmberg
+**Customer advocate**: Sandhya Joshi
+**Lead software developer**: Zachary Wawrzaszek
+**Lead UI designer**: Jack Kagan
+**Lead tester**: Stavros Bannoura
+
+===
+1.1. Purpose
+
+Purpose of this document is build a tag-based file manager system which stores the metadata , in form of custom tags, in a separate database, instead of working directly in an operating system’s limited file manager. This program will remember and searches and open with the most recent search displayed to ensure continuity and clarity. This product will be used enhance the search capabilities in user’s database system.
+
+===
+1.2. Scope Of This Document
+
+The intended readers of this document are current and future developers working on “Team Exists As Metonym” and the sponsors of the project. The plan will include, but is not restricted to, a summary of the system functionality, the scope of the project from the perspective of the “TEAM exits As Metonym” team (me and my team members), scheduling and delivery estimates, project risks and how those risks will be mitigated, the process by which we will develop the project, and metrics and measurements that will be recorded throughout the project.
+
+===
+1.3. Definitions, Acronyms, And Abbreviations
+
+[Consult external glossary]
+
+===
+1.4. Overview
+
+Contemporary businesses generate vast amounts of digital information, including documentation for business processes, customer lists, accounting spreadsheets, and more. Efficiently accessing this data. however, can be a problem:  only filenames and some filesystem-specific metadata are easily searchable and systems that add information or tags directly to files can cause integrity problems. Additionally, modifications to the files may not be acceptable due to regulatory or other requirements. Clearly, a different solution is required.
+
+Our tag-based file manager which stores the metadata, in the form of custom tags, in a separate database. Instead of working directly in an operating systems limited file manager, we will offer a clean user interface that can sort based on any number of user-selected tags. The program searches and open with the most recent search displayed to ensure continuity and clarity.  
+
+===
+1.5. Business Context
+
+In today’s world , providing a best customer experience is as important as getting a new customer. To achieve this goal every business needs wants to maintain their customer data and keep record of customers interaction with their company. This enhancement can be used in any organization which uses very heavy database ,either it is customer information, any user information , they medical history, personal data or even their recent searches they have  performed online. Our product can be used to retrieve any information quickly and effectively.
+
+The database will be loaded with business-critical features including management controls that restrict tag creation and file tagging to specific groups or users to prevent confusion or abuse. Each tag will include an optional description, also protected within the database. Because tags are stored inside the database, they automatically come with the key benefits of ACID: atomicity, consistency, isolation, durability. Every operation is guaranteed not to harm the integrity of either the main database or the filesystem.
+
+The new tag-based file manager will address the shortcomings of other solutions. Business-critical files will never be modified in any way nor will any filenames change. Users will always be able to make use of this system side-by-side with the legacy file managers,  simplifying administration. In short, our tag-based file manager will create new opportunities for organization and collaboration by making everyday access to business information simpler, easier, and more intuitive.
+
++++
+2. General Description
+
+===
+2.1. Product Features/Functions
+
+This product creates a tag-based file manager which stores the metadata, in the form of custom tags, in a separate database. Instead of working directly in an operating system's limited file manager, product will  offer a clean user interface that can sort based on any number of user-selected tags. The program will remember searches and open with the most recent search displayed to ensure continuity and clarity. It will provide some basic tags and instruction to get users started but otherwise aim at being "invisible", allowing businesses to instantly search, sort, and access important data. Using predictive technologies, the program will start searching while the user is still typing, providing immediate, crucial feedback.
+
+The database will be loaded with business-critical features including management controls that restrict tag creation and file tagging to specific groups or users to prevent confusion or abuse. Each tag will include an optional description, also protected within the database. Because tags are stored inside the database, they automatically come with the key benefits of ACID: atomicity, consistency, isolation, durability. Every operation is guaranteed not to harm the integrity of either the main database or the filesystem.
+
+The new tag-based file manager will address the shortcomings of other solutions. Business-critical files will never be modified in any way nor will any filenames change. Users will always be able to make use of this system side-by-side with the legacy file managers,  simplifying administration. In short, our tag-based file manager will create new opportunities for organization and collaboration by making everyday access to business information simpler, easier, and more intuitive.
+
+===
+2.2. User Characteristics
+
+Our client is an Insurance company  where they maintain their data for each policy members. According to HIPPA, each policy holder’s data should not be disclosed to anyone. Policy holder data contains their personal information like social security no and birthdate. Along with that information they have all information about person’s medical history, recent hospital visits.  Prescription medication ,any medical surgeries etc. This information gets updated every year as the policy holder/patient medical information changes. This data is stored internally for the organization. This data is not available for the customers. The healthcare system needs to keep track of these records. This information would be used by the employees at MHC.
+
+Most of the policy member call the customer care with questions regards  to their benefits, claims, billing, sometimes even ask for details of the specialist who participates in their network. Usually employee needs to provide these information within certain time frame. They cannot keep the customer on hold more than 3 mins. Employee has to get this information fast and accurate. They need some technology which pulls the information based on person’s recent medical history changes. Or even based on the recent enquires. Based on these logs the customer care employee can provide the information efficiently and effectively.
+
+===
+2.3. General Constraints
+
+1. This must be operated on Windows or Linux operating system.
+2. Maximum database size : Every database consists of one or more "pages" with different sizes between 512 and 65536. The maximum size of a database file is 2147483646 pages.
+
++++
+3. Business Requirements
+
+**B1**: Insurance Company wants to maintain its Quality of Service by providing best customer care service in timely manner.
+**B2**: Insurance Company wants to maintain all its customer's data so that it can be searched efficiently and effectively
+**B3**: Find files when filename, filetype, and location are unknown
+**B4**: Software shall consider HIPPA laws and all data and transfers of data shall be completely secure (encryption?)
+
++++
+4.Functional Requirements
+
+**F1**: System shall maintain a user portal for policy members.
+**F2**: Customer care representative shall be able to retrieve the policy holder information using a keyword from their database.
+**F3**: System shall create a client and project specific tags when a new client or project is created
+**F4**: Administrator log in shall be required to manage the tag database
+**F5**: Windows log in shall be recognized when adding tags to shared files or folders
+**F6**: Relevant employee login will be required to delete, edit, and create tags.
+**F7**: Customer care representative shall be able to retrieve all the case history by searching caseId or tag number.
+**F8**: Produce regular reports on most popular tags, searches (tag combos).
+**F9**: System shall maintain a user portal for policy members.
+**F10**: System assigned tags shall only be deleted by managers, agent assigned tags may be deleted by agent
+**F11**: Insurance agent shall be able to log in to the system and find related documents by using keywords related to the client or project
+**F12**: Managers shall be able to create additional tags that their group requires
+**F13**: Tags shall stay assigned to document if moved to a different project or directory
+**F14**: Project relevant tags shall be assigned to any document that is added to a tagged project folder
+**F15**: Tags shall not allow users to access documents that they do not have permissions to access
+**F16**: Files that have been returned from a tag search will have additional methods available to sort based on filetype?
+**F17**: Files that have been searched will be support drag and drop?
+**F18**: Customer care representative shall be able to retrieve all the case history by searching caseId or tag number.
+**F19**: System shall assign reward points to policy holder based on their medical history and lifestyle.
+
++++
+5. Interface Requirements
+
+**I1**: User interface for adding personal tags shall be on mouse-right-click drop down
+**I2**: User interface for managing personal tags shall require log in
+**I3**: User Interface shall offer options for personalized color schemes for tags
+**I4**: How can we smoothly connect to other databases?
+**I5**: GUI will include a centralized (easily spotted) search bar for the searching of tags
+**I6**: GUI will include history tab for recently searched and accessed tags/files
+**I7**: Main pane must be able to change target directory
+**I8**: Secondary pane must a check box is allow/disallow searching subdirectories
+
+///
+This division needs more work, including sorting into sections ("""===""") based on interface type.
+\\\
+2.1 User Interfaces
+5.1.1GUI--
+5.1.2CLI--
+2.1.1 API---
+2.2 Hardware Interfaces- Windows, MAC
+2.3 Communication Interfaces  - Local Area Network
+2.4 Software Interfaces- Any additional software is needed to implement this solution
+
++++
+6. Performance Requirements
+
+**P1**: Software will be able to pull, and display files based on search criteria in a reasonable amount of time (less than 15 seconds?)
+**P2**: Start searching in n seconds after a tag match is guessed but the user is still typing
+**P3**: Software will be relatively lightweight (not hog processing power) and not affect other business necessary operations that must also be performed
+**P4**: What’s the type of speed that we want for this application?
+**P5**: How will we optimize the application to be effective?
+**P6**: What is the maximum capacity of the database are we creating?
+**P7**: Can it survive data overload ?
+
++++
+7. Other Non-Functional Attributes
+
+===
+7.1. Security
+
+**N1**: Customer representative should follow HIPAA regulations.
+**N2**: Make no changes to any file or file's metadata
+
+===
+7.2. Reliability
+
+**N3**: System should be available 24x7 for all users
+
+===
+7.3. Maintainability
+
+**N4**: Database system should perform database maintenance every midnight
+
+===
+7.4. Portability
+
+**N5**: Software must be able to support many (100s ?) users/employees’ ability to create, access, and modify tags simultaneously.
+**N6**: The application must be able to support users effectively organizing files.
+
+===
+7.5. Resource Utilization
+
+**N7**: Software must keep all tags up to date in real time as they are added, deleted, modified.
+
+===
+7.6. Serviceability
+
+**N8**: Start searching in n seconds after a tag match is guessed but the user is still typing
+**N9**: System should be available 24x7 for all users
+**N10**: The application must be able to support users effectively organizing files.
+
++++
+8. Operational Scenarios
+
+===
+8.1. Scenario A
+
+Manager wants to know, due to COVID-19, how many customers with age of 60 or above have visited the hospital.
+
+===
+8.2. Scenario B
+
+Customer wants to know, what are his benefits if he has another knee surgery for his torn ACL
+
+===
+8.3. Scenario C
+
+Manager wants to pull data of people who have recently ordered prescription for Chloroquine phosphate. 
+
++++
+9. Use Case And User Stories
+
+1. A Customer calls the MHC customer care service. 
+2. He would like to know whether he has met his deductible
+3. Representative askes his date of birth and last four digits of social no for verification.
+4. Representative checks his account. 
+5. A caseId is pulled up with his information.
+6. All the previous doctor visits are recorded in his file.
+7. Representative checks his current balance and provides the information.
+ 
+See User Story vs Use Case (Plain Text Link: https://www.visual-paradigm.com/guide/agile-software-development/user-story-vs-use-case/)
+
++++
+10. Sequence Diagrams
+
+What is a Sequence Diagram (Plain Text Link: https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-sequence-diagram/)
+
++++
+11. Appendices
+
+===
+11.1. MOSCOW
+
+===
+11.2. Procedures For Project Requirement Changes
+
+===
+11.3. Schedule
+
+===
+11.4. Requirements Traceability Matrix
+
+===
+11.5. Verification And Validation Testing Document
