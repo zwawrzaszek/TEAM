@@ -66,4 +66,15 @@ HLD
 ===
 LLD
 
+• LLD Ideas
+•• Pick/decide on ideas
+•• Decide what database we want e.g. Relational, etc.
+•• Pick the normalization that we can use
+•• 
+
+• LLD Draft
+•• Introduction (LLD 1)
+•• 
+••
+
 ?
