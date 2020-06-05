@@ -1,4 +1,4 @@
-HLD | TEAM Exists As Metonym
+HLD Draft | TEAM Exists As Metonym
 
 https://github.com/bizzlebin/team/docs/hld_draft.txt
 
@@ -10,30 +10,23 @@ By Zachary Wawrzaszek, et al
 
 Created on 2020-06-03
 
-+++
-1.0 Introduction
+Updated on 2020-06-04
 
 +++
-1.1 Purpose
+1. Introduction
 
-The purpose of our project is to improve and expidite the process of searching for files on your computer. In general the software is for 
-anyone who has ever had a difficult time locating a specific file they need to find quickly within their file manager. Our client specifically
-is an insurance company and they need the application to be able to quickly locate important medical and financial documents of varying filetype. 
-Customer service representatives will especially benefit from the application because it will both simplify the search process and reduce the 
-amount of time they need to keep a customer on hold, therefore, improving the mood of the customer and decreasing frustrations for the employee.
+===
+1.1. Purpose
 
-+++
-1.2 Scope of this document
+The purpose of our project is to improve and expedite the process of searching for files on your computer. In general the software is for anyone who has ever had a difficult time locating a specific file they need to find quickly within their file manager. Our client specifically is an insurance company and they need the application to be able to quickly locate important medical and financial documents of varying filetype. Customer service representatives will especially benefit from the application because it will both simplify the search process and reduce the amount of time they need to keep a customer on hold, therefore, improving the mood of the customer and decreasing frustrations for the employee.
 
-This document will outline the basic structure of our software's interfaces and provide general information about the inner workings of 
-the application. This includes descriptions and diagrams of how the GUI will communicate with the database for the editing, creation, and 
-retrieval of tags, as well as how the software will interface with each computers basic file manager. This will also include details about 
-our design including issues, tradeoffs, our development and collaboration tools, and the libraries we have chosen to implement to assist
-in the construction of the software. Additionally details will be provided about security, hardware, reports and output, the database, 
-the class structure, and the flow of data.
+===
+1.2. Scope Of This Document
 
-+++
-1.3 Definitions, abbreviations, acronyms
+This document will outline the basic structure of our software's interfaces and provide general information about the inner workings of the application. This includes descriptions and diagrams of how the GUI will communicate with the database for the editing, creation, and retrieval of tags, as well as how the software will interface with each computers basic file manager. This will also include details about our design including issues, tradeoffs, our development and collaboration tools, and the libraries we have chosen to implement to assist in the construction of the software. Additionally details will be provided about security, hardware, reports and output, the database, the class structure, and the flow of data.
+
+===
+1.3. Definitions, Acronyms, And Abbreviations
 
 GUI - Graphic User Interface
 
