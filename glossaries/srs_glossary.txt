@@ -18,6 +18,7 @@ This glossary of terms is a living document, please add any definitions of words
 A
 
 **Term**: 
+• API - Application Programming Interface
 
 ---
 **Term**:
@@ -40,6 +41,7 @@ C
 D
 
 **Term**: 
+• DBMS - Database Management System 
 
 ===
 E
@@ -55,6 +57,7 @@ F
 G
 
 **Term**: 
+• GUI - Graphical User Interface
 
 ===
 H
@@ -125,6 +128,7 @@ T
 U
 
 **Term**: 
+• UML - Unified Modeling Language
 
 ===
 V
