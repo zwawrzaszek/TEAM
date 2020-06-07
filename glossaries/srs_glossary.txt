@@ -10,6 +10,8 @@ By Anna Malmberg et al
 
 Created on 2020-06-03
 
+Updated on 2020-06-06
+
 +++
 
 This glossary of terms is a living document, please add any definitions of words, acronyms or abbreviations that are relevant to the SRS document in alphabetical order. If the term will used in the HLD and LLD documents also, please add it to all three glossaries!
@@ -17,15 +19,9 @@ This glossary of terms is a living document, please add any definitions of words
 +++
 A
 
-**Term**: 
-• API - Application Programming Interface
-
----
+**API**: Application Programming Interface
 **Term**:
-
----
 **Term**:
-
 
 ===
 B
@@ -35,13 +31,12 @@ B
 ===
 C
 
-**Term**: 
+**Customer**: A person who uses services proviced by Insurance Company
 
 ===
 D
 
-**Term**: 
-• DBMS - Database Management System 
+**DBMS**: Database Management System
 
 ===
 E
@@ -56,13 +51,12 @@ F
 ===
 G
 
-**Term**: 
-• GUI - Graphical User Interface
+**GUI**: Graphical User Interface
 
 ===
 H
 
-**Term**: 
+**HIPAA**: The Health Insurance Portability and Accountability Act of 1996.
 
 ===
 I
@@ -127,8 +121,7 @@ T
 ===
 U
 
-**Term**: 
-• UML - Unified Modeling Language
+**UML**: Unified Modeling Language
 
 ===
 V
