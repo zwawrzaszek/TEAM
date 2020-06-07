@@ -131,14 +131,20 @@ Most of the policy member call the customer care with questions regards  to thei
 3. Business Requirements
 
 **B1**: Insurance Company wants to maintain its Quality of Service by providing best customer care service in timely manner.
+***B1.1***: Customer hold-times during peak hours shall be 15 minutes or less. 
+***B1.2***: All customer correspondence shall be compiled and mailed out the same business day as customer request was made.
+***B1.3***: When a case is closed, all relevant documents shall be transfered to customer file within one business day.  
 **B2**: Insurance Company wants to maintain all its customer's data so that it can be searched efficiently and effectively
 **B3**: Find files when filename, filetype, and location are unknown
-**B4**: Software shall consider HIPPA laws and all data and transfers of data shall be completely secure (encryption?)
+**B4**: Software shall consider HIPAA laws and all data and transfers of data shall be completely secure (encryption?)
+***B4.1***: Software shall not have direct access to any confidential data or documents, rather, tags shall be attached to files in a way that does not require read permissions.
 
 +++
 4.Functional Requirements
 
-**F1**: System shall maintain a user portal for policy members.
+**F1**: System shall maintain a user portal for policy members using customer specific tags.
+***F1.1***: System shall always cross-reference customer ID before assigning customer specific tags to any documents.
+***F1.2***: Customers shall not be able to access the tag system.
 **F2**: Customer care representative shall be able to retrieve the policy holder information using a keyword from their database.
 **F3**: System shall create a client and project specific tags when a new client or project is created
 **F4**: Administrator log in shall be required to manage the tag database
@@ -146,11 +152,12 @@ Most of the policy member call the customer care with questions regards  to thei
 **F6**: Relevant employee login will be required to delete, edit, and create tags.
 **F7**: Customer care representative shall be able to retrieve all the case history by searching caseId or tag number.
 **F8**: Produce regular reports on most popular tags, searches (tag combos).
-**F9**: System shall maintain a user portal for policy members.
+**F9**: System shall maintain a user portal for policy members. #redundant requirement, see F1
 **F10**: System assigned tags shall only be deleted by managers, agent assigned tags may be deleted by agent
 **F11**: Insurance agent shall be able to log in to the system and find related documents by using keywords related to the client or project
 **F12**: Managers shall be able to create additional tags that their group requires
 **F13**: Tags shall stay assigned to document if moved to a different project or directory
+***F13.1***: To ensure confidnetiality, if a customer tag is present on a document a document move must be approved by a manager or group leader.
 **F14**: Project relevant tags shall be assigned to any document that is added to a tagged project folder
 **F15**: Tags shall not allow users to access documents that they do not have permissions to access
 **F16**: Files that have been returned from a tag search will have additional methods available to sort based on filetype?
