@@ -49,4 +49,44 @@ Our other collaboration tool is our main focus on this project and we mainly use
 our procedure for the group which are the meeting hours in a text file, we have also given ourselves a schedule that we follow and is also in a text file on github. We also have a tasklist.txt which is what we have to keep track of the list of tasks so we dont get lost. As for other assignments they are listed individually in our master branch, the readme is in charge of giving us our weekly assignments and this only to be modified by the PM or DS. 
 
 ===
-2.4. Libraries 
+2.4. Libraries
+
++++
+3. Design Details
+
+===
+3.1. Security
+
+===
+3.2. Hardware
+
+===
+3.3. User Interfaces
+
+===
+3.4. Internal Interfaces
+
+===
+3.5. External Interfaces
+
+===
+3.6. Architecture
+
+===
+3.7. Reports
+
+===
+3.8. Other Output
+
+===
+3.9. Databases
+
+===
+3.10. Top-Level Classes (Class Hierarchy)
+
+===
+3.11. Configuration Data
+
+===
+3.12. Data Flows and States
+
