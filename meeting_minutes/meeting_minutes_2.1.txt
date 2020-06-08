@@ -10,15 +10,12 @@ By Anna Malmberg, et al
 
 Created on 2020-06-02
 
-Updated on 2020-06-03
-
-+++
-Meeting Minutes [2020-06-02]
+Updated on 2020-06-06
 
 +++
 Summary
 
-Tuesday meeting of TEAM Exists As Metonym, to discuss progress and ideas for SRS and HLD and vote on database to be used for project. Welcome Jack to project group.
+Tuesday meeting on 2020-06-02 of TEAM Exists As Metonym, to discuss progress and ideas for SRS and HLD and vote on database to be used for project. Welcome Jack to project group.
 
 **Call To Order**: Jeremiah Thomas 20:00
 
