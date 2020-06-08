@@ -10,6 +10,8 @@ By Sandhya Joshi
 
 Created on 2020-06-04
 
+Updated on 2020-06-07
+
 +++
 Description
 
@@ -232,8 +234,8 @@ This division needs more work, including sorting into sections ("""===""") based
 ===
 7.6. Serviceability
 
-**N8**: Start searching in n seconds after a tag match is guessed but the user is still typing
-**N9**: System should be available 24x7 for all users
+**N8**: Start searching in n seconds after a tag match is guessed but the user is still typing #duplicated requirement, see P2
+**N9**: System should be available 24x7 for all users #duplicated requirements, see N3
 **N10**: The application must be able to support users effectively organizing files.
 
 +++
