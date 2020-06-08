@@ -13,7 +13,7 @@ Created on 2020-06-04
 +++
 Summary
 
-Thursday, 2020-06-04, meeting of TEAM Exists As Metonym, to discuss progress, focus on SRS draft, and new releases
+Thursday meeting on 2020-06-04 of TEAM Exists As Metonym, to discuss progress, focus on SRS draft, and new releases
 
 **Call To Order**: Jeremiah Thomas 20:00
 
