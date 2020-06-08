@@ -12,7 +12,7 @@ By Jeremiah Thomas, et al
 
 Created on 2020-05-24
 
-Updated on 2020-05-30
+Updated on 2020-06-08
 
 ***
 
@@ -74,19 +74,19 @@ Due By Tuesday (2020-06-02)
 1.1. Propose at least 1 business requirement (SRS 3; please keep it to clear but concise bullet points as far as possible).
 1.2. Propose at least 1 functional requirement (SRS 4).
 1.3. Propose at least 1 non-functional requirement (SRS 5).
-1.3. Propose at least 1 interface requirement (SRS "6" (numbering is borked)).
-1.3. Propose at least 1 performance requirement (SRS "7").
+1.4. Propose at least 1 interface requirement (SRS "6" (numbering is borked)).
+1.5. Propose at least 1 performance requirement (SRS "7").
 2. HLD Ideas work (add directly to text file).
 2.1. Propose at least 1 design issue (HLD 2.2).
 2.2. Propose at least 1 security design detail (HLD 3.1).
-2.2. Propose at least 1 UI design detail (HLD 3.3).
-2.2. Propose at least 1 internal interface design detail (HLD 3.4).
-2.2. Propose at least 1 external interface design detail (HLD 3.5).
+2.3. Propose at least 1 UI design detail (HLD 3.3).
+2.4. Propose at least 1 internal interface design detail (HLD 3.4).
+2.5. Propose at least 1 external interface design detail (HLD 3.5).
 3. Meeting prep.
 3.1. Prepare your personal agenda (applies to every meeting; keep it short and view the meeting format spec for hints).
 3.2. E-mail PM any agenda/vote items (applies to every meeting).
-3.2. DB vote: research and choose top DB out of SQLite, Postgres, and MariaDB (vote during meeting).
-3.3. Person #6 expulsion vote: still no contact as of Sunday evening (vote during meeting).
+3.3. DB vote: research and choose top DB out of SQLite, Postgres, and MariaDB (vote during meeting).
+3.4. Person #6 expulsion vote: still no contact as of Sunday evening (vote during meeting).
 
 ---
 Due By Thursday (2020-06-04)
@@ -133,14 +133,17 @@ Due By Thursday (2020-06-11)
 8. LLD.
 8.1. Add 1 class idea to LLD Ideas.
 8.2. Add DB information to LLD (LT only).
-9. Meeting prep.
+9. Link all requirements to at least 1 business requirement (CA only).
+10. Meeting prep.
 
 ---
 Due By Saturday (2020-06-13)
 
-10. First HLD UML diagram (LUID only).
-11. Pick and list all classes in LLD ideas (LT only).
-12. Check formatting on all documents (DS only).
+11. Complete General Description division (CA only; SRS 2).
+12. Procedures For Project Requirement Changes (PM only; SRS 11.2).
+13. First HLD UML diagram (LUID only).
+14. Pick and list all classes in LLD ideas (LT only).
+15. Check formatting on all documents (DS only).
 
 +++
 Ground Rules
@@ -161,4 +164,4 @@ Metametadata
 **meta_author**: Jeremiah Thomas
 **meta_generator**: Notepad++
 **meta_created**: 2020-05-24
-**meta_updated**: 2020-06-04
+**meta_updated**: 2020-06-08
