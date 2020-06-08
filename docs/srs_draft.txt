@@ -10,7 +10,7 @@ By Sandhya Joshi
 
 Created on 2020-06-04
 
-Updated on 2020-06-07
+Updated on 2020-06-08
 
 +++
 Description
@@ -132,52 +132,52 @@ Most of the policy member call the customer care with questions regards  to thei
 +++
 3. Business Requirements
 
-**B1**: Insurance Company wants to maintain its Quality of Service by providing best customer care service in timely manner.
-***B1.1***: Customer hold-times during peak hours shall be 15 minutes or less. 
-***B1.2***: All customer correspondence shall be compiled and mailed out the same business day as customer request was made.
-***B1.3***: When a case is closed, all relevant documents shall be transfered to customer file within one business day.  
-**B2**: Insurance Company wants to maintain all its customer's data so that it can be searched efficiently and effectively
-**B3**: Find files when filename, filetype, and location are unknown
-**B4**: Software shall consider HIPAA laws and all data and transfers of data shall be completely secure (encryption?)
-***B4.1***: Software shall not have direct access to any confidential data or documents, rather, tags shall be attached to files in a way that does not require read permissions.
+**B1**: Insurance Company wants to maintain its Quality of Service by providing best customer care service in timely manner. (M)
+***B1.1***: Customer hold-times during peak hours shall be 15 minutes or less. (S)
+***B1.2***: All customer correspondence shall be compiled and mailed out the same business day as customer request was made. (W)
+***B1.3***: When a case is closed, all relevant documents shall be transfered to customer file within one business day. (W)
+**B2**: Insurance Company wants to maintain all its customer's data so that it can be searched efficiently and effectively (M)
+**B3**: Find files when filename, filetype, and location are unknown (M)
+**B4**: Software shall consider HIPAA laws and all data and transfers of data shall be completely secure (encryption?) (W)
+***B4.1***: Software shall not have direct access to any confidential data or documents, rather, tags shall be attached to files in a way that does not require read permissions. (M)
 
 +++
 4.Functional Requirements
 
-**F1**: System shall maintain a user portal for policy members using customer specific tags.
-***F1.1***: System shall always cross-reference customer ID before assigning customer specific tags to any documents.
-***F1.2***: Customers shall not be able to access the tag system.
-**F2**: Customer care representative shall be able to retrieve the policy holder information using a keyword from their database.
-**F3**: System shall create a client and project specific tags when a new client or project is created
-**F4**: Administrator log in shall be required to manage the tag database
-**F5**: Windows log in shall be recognized when adding tags to shared files or folders
-**F6**: Relevant employee login will be required to delete, edit, and create tags.
-**F7**: Customer care representative shall be able to retrieve all the case history by searching caseId or tag number.
-**F8**: Produce regular reports on most popular tags, searches (tag combos).
-**F9**: System shall maintain a user portal for policy members. #redundant requirement, see F1
-**F10**: System assigned tags shall only be deleted by managers, agent assigned tags may be deleted by agent
-**F11**: Insurance agent shall be able to log in to the system and find related documents by using keywords related to the client or project
-**F12**: Managers shall be able to create additional tags that their group requires
-**F13**: Tags shall stay assigned to document if moved to a different project or directory
-***F13.1***: To ensure confidnetiality, if a customer tag is present on a document a document move must be approved by a manager or group leader.
-**F14**: Project relevant tags shall be assigned to any document that is added to a tagged project folder
-**F15**: Tags shall not allow users to access documents that they do not have permissions to access
-**F16**: Files that have been returned from a tag search will have additional methods available to sort based on filetype?
-**F17**: Files that have been searched will be support drag and drop?
-**F18**: Customer care representative shall be able to retrieve all the case history by searching caseId or tag number.
-**F19**: System shall assign reward points to policy holder based on their medical history and lifestyle.
+**F1**: System shall maintain a user portal for policy members using customer specific tags. (W)
+***F1.1***: System shall always cross-reference customer ID before assigning customer specific tags to any documents. (C)
+***F1.2***: Customers shall not be able to access the tag system. (C)
+**F2**: Customer care representative shall be able to retrieve the policy holder information using a keyword from their database. (M)
+**F3**: System shall create a client and project specific tags when a new client or project is created (W)
+**F4**: Administrator log in shall be required to manage the tag database (S)
+**F5**: Windows log in shall be recognized when adding tags to shared files or folders (C)
+**F6**: Relevant employee login will be required to delete, edit, and create tags. (S)
+**F7**: Customer care representative shall be able to retrieve all the case history by searching caseId or tag number. (C)
+**F8**: Produce regular reports on most popular tags, searches (tag combos). (C)
+**F9**: System shall maintain a user portal for policy members. #redundant requirement, see F1 (W)
+**F10**: System assigned tags shall only be deleted by managers, agent assigned tags may be deleted by agent (S)
+**F11**: Insurance agent shall be able to log in to the system and find related documents by using keywords related to the client or project (M)
+**F12**: Managers shall be able to create additional tags that their group requires (M)
+**F13**: Tags shall stay assigned to document if moved to a different project or directory (C)
+***F13.1***: To ensure confidnetiality, if a customer tag is present on a document a document move must be approved by a manager or group leader. (W)
+**F14**: Project relevant tags shall be assigned to any document that is added to a tagged project folder (W)
+**F15**: Tags shall not allow users to access documents that they do not have permissions to access (M)
+**F16**: Files that have been returned from a tag search will have additional methods available to sort based on filetype? (S)
+**F17**: Files that have been searched will be support drag and drop? (C)
+**F18**: Customer care representative shall be able to retrieve all the case history by searching caseId or tag number. (duplicate)
+**F19**: System shall assign reward points to policy holder based on their medical history and lifestyle. (W)
 
 +++
 5. Interface Requirements
 
-**I1**: User interface for adding personal tags shall be on mouse-right-click drop down
-**I2**: User interface for managing personal tags shall require log in
-**I3**: User Interface shall offer options for personalized color schemes for tags
-**I4**: How can we smoothly connect to other databases?
-**I5**: GUI will include a centralized (easily spotted) search bar for the searching of tags
-**I6**: GUI will include history tab for recently searched and accessed tags/files
-**I7**: Main pane must be able to change target directory
-**I8**: Secondary pane must a check box is allow/disallow searching subdirectories
+**I1**: User interface for adding personal tags shall be on mouse-right-click drop down (C)
+**I2**: User interface for managing personal tags shall require log in (S)
+**I3**: User Interface shall offer options for personalized color schemes for tags (C)
+**I4**: How can we smoothly connect to other databases? (W)
+**I5**: GUI will include a centralized (easily spotted) search bar for the searching of tags (M)
+**I6**: GUI will include history tab for recently searched and accessed tags/files (S)
+**I7**: Main pane must be able to change target directory (M)
+**I8**: Secondary pane must a check box is allow/disallow searching subdirectories (S)
 
 ///
 This division needs more work, including sorting into sections ("""===""") based on interface type.
@@ -193,13 +193,13 @@ This division needs more work, including sorting into sections ("""===""") based
 +++
 6. Performance Requirements
 
-**P1**: Software will be able to pull, and display files based on search criteria in a reasonable amount of time (less than 15 seconds?)
-**P2**: Start searching in n seconds after a tag match is guessed but the user is still typing
-**P3**: Software will be relatively lightweight (not hog processing power) and not affect other business necessary operations that must also be performed
-**P4**: What’s the type of speed that we want for this application?
-**P5**: How will we optimize the application to be effective?
-**P6**: What is the maximum capacity of the database are we creating?
-**P7**: Can it survive data overload ?
+**P1**: Software will be able to pull, and display files based on search criteria in a reasonable amount of time (less than 15 seconds?) (M)
+**P2**: Start searching in n seconds after a tag match is guessed but the user is still typing (C)
+**P3**: Software will be relatively lightweight (not hog processing power) and not affect other business necessary operations that must also be performed (M)
+**P4**: What’s the type of speed that we want for this application? (W)
+**P5**: How will we optimize the application to be effective? (W)
+**P6**: What is the maximum capacity of the database are we creating? (W)
+**P7**: Can it survive data overload ? (W)
 
 +++
 7. Other Non-Functional Attributes
@@ -207,36 +207,36 @@ This division needs more work, including sorting into sections ("""===""") based
 ===
 7.1. Security
 
-**N1**: Customer representative should follow HIPAA regulations.
-**N2**: Make no changes to any file or file's metadata
+**N1**: Customer representative should follow HIPAA regulations. (W)
+**N2**: Make no changes to any file or file's metadata (M)
 
 ===
 7.2. Reliability
 
-**N3**: System should be available 24x7 for all users
+**N3**: System should be available 24x7 for all users (S)
 
 ===
 7.3. Maintainability
 
-**N4**: Database system should perform database maintenance every midnight
+**N4**: Database system should perform database maintenance every midnight (C)
 
 ===
 7.4. Portability
 
-**N5**: Software must be able to support many (100s ?) users/employees’ ability to create, access, and modify tags simultaneously.
-**N6**: The application must be able to support users effectively organizing files.
+**N5**: Software must be able to support many (100s ?) users/employees’ ability to create, access, and modify tags simultaneously. (S)
+**N6**: The application must be able to support users effectively organizing files. (W)
 
 ===
 7.5. Resource Utilization
 
-**N7**: Software must keep all tags up to date in real time as they are added, deleted, modified.
+**N7**: Software must keep all tags up to date in real time as they are added, deleted, modified. (S)
 
 ===
 7.6. Serviceability
 
 **N8**: Start searching in n seconds after a tag match is guessed but the user is still typing #duplicated requirement, see P2
 **N9**: System should be available 24x7 for all users #duplicated requirements, see N3
-**N10**: The application must be able to support users effectively organizing files.
+**N10**: The application must be able to support users effectively organizing files. (duplicate)
 
 +++
 8. Operational Scenarios
