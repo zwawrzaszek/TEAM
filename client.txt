@@ -1,4 +1,18 @@
-Client.txt 
+Client
+
+https://github.com/bizzlebin/team/client.txt
+
+***
+
+By Sandhya Joshi, et al
+
+***
+
+Created on 2020-05-27
+
+Updated on 2020-06-07
+
++++
 
 Client Name: My Healthcare
 Industry: HealthCare
@@ -9,8 +23,10 @@ Business Requirement:
 2.Insurance Company wants to maintain customer's data in such way that can be searched efficiently and effectively.
 3.Insurance Company wants to maintain Customer Retention rate by providing the healthcare incentives to the customers
 
+Our client is an Insurance company  where they maintain their data for each policy members. According to HIPAA, each policy holder’s data should not be disclosed to anyone.
 
-	Our client is an Insurance company  where they maintain their data for each policy members. According to HIPPA, each policy holder’s data should not be disclosed to anyone. 
-	Policy holder data contains their personal information like social security no and birthdate. Along with that information they have all information about person’s medical history, recent hospital visits. Prescription medication ,any medical surgeries etc. This information gets updated every year as the policy holder/patient medical information changes.
-	This data is stored internally for the organization. This data is not available for the customers. The healthcare system needs to keep track of these records. This information would be used by the employees at MHC. Most of the policy member call the customer care with questions regards  to their benefits, claims, billing, sometimes even ask for details of the specialist who participates in their network. 
-	Usually employee needs to provide these information within certain time frame. They cannot keep the customer on hold more than 3 mins. Employee has to get this information fast and accurate. They need some technology which pulls the information based on person’s recent medical history changes. Or even based on the recent enquires. Based on these logs the customer care employee can provide the information efficiently and effectively.
+Policy holder data contains their personal information like social security no and birthdate. Along with that information they have all information about person’s medical history, recent hospital visits. Prescription medication, any medical surgeries etc. This information gets updated every year as the policy holder/patient medical information changes.
+
+This data is stored internally for the organization. This data is not available for the customers. The healthcare system needs to keep track of these records. This information would be used by the employees at MHC. Most of the policy member call the customer care with questions regards  to their benefits, claims, billing, sometimes even ask for details of the specialist who participates in their network.
+ 
+Usually employee needs to provide these information within certain time frame. They cannot keep the customer on hold more than 3 mins. Employee has to get this information fast and accurate. They need some technology which pulls the information based on person’s recent medical history changes. Or even based on the recent enquires. Based on these logs the customer care employee can provide the information efficiently and effectively.
