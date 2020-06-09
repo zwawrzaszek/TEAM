@@ -10,7 +10,7 @@ By Sandhya Joshi
 
 Created on 2020-06-04
 
-Updated on 2020-06-08
+Updated on 2020-06-09
 
 +++
 Description
@@ -207,6 +207,7 @@ This division needs more work, including sorting into sections ("""===""") based
 7.3. Maintainability
 
 **N4**: Database system should perform database maintenance every midnight (C)
+**N?**: System should not have any external dependencies
 
 ===
 7.4. Portability
@@ -221,7 +222,7 @@ This division needs more work, including sorting into sections ("""===""") based
 ===
 7.6. Serviceability
 
-**N8**:
+**N8**: Tags must be able to be removed without side effects
 
 +++
 8. Operational Scenarios
