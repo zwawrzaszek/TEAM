@@ -10,7 +10,7 @@ By Anna Malmberg et al
 
 Created on 2020-06-03
 
-Updated on 2020-06-06
+Updated on 2020-06-09
 
 +++
 
@@ -81,6 +81,7 @@ L
 ===
 M
 
+**Metadata**: Data about data, or data which further describes the properties, qualities, and/or quantities of other data
 **Term**: 
 
 ===
@@ -111,11 +112,13 @@ R
 ===
 S
 
+**SQLite**: A database that operates directly from library function calls, without a separate process or server
 **Term**: 
 
 ===
 T
 
+**Tag**: A string without spaces which provides categorical information about its object
 **Term**: 
 
 ===
@@ -147,5 +150,3 @@ Y
 Z
 
 **Term**: 
-
-
