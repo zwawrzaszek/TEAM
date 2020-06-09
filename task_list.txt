@@ -57,11 +57,14 @@ HLD
 • HLD Ideas
 •• Pick ideas
 •• Create very-high-level overview
+•• Settle on base classes/functions that we need
  
 • First draft
 •• Introduction (HLD 1)
 •• Design Summary (HLD 2)
 •• Design Details (HLD 3)
+••• Create UML Behavior Diagram (required)
+••• Create UML Structure Diagram (required)
 
 ===
 LLD
@@ -70,7 +73,7 @@ LLD
 •• Pick/decide on ideas
 •• Decide what database we want e.g. Relational, etc.
 •• Pick the normalization that we can use
-•• 
+•• Create drafts of psuedo-code for how certain functions will be performed
 
 • LLD Draft
 •• Introduction (LLD 1)
