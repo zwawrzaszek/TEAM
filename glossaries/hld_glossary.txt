@@ -18,7 +18,7 @@ This glossary of terms is a living document, please add any definitions of words
 A
 
 **API**: Application Programming Interface
-**Term**:
+**ACID**: Atomicity, Consistency, Isolation, Durability
 **Term**:
 
 ===
@@ -29,7 +29,7 @@ B
 ===
 C
 
-**Term**: 
+**CLI**: Command Line Interface
 
 ===
 D
@@ -104,7 +104,7 @@ Q
 ===
 R
 
-**Term**: 
+**RDBMS**: Relational Database Management System
 
 ===
 S
