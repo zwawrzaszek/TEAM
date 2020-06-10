@@ -132,7 +132,7 @@ Due By Thursday (2020-06-11)
 7. Sequence diagram for 1 SRS req (LUID only).
 8. LLD.
 8.1. Add 1 class idea to LLD Ideas.
-8.2. Add DB information to LLD (LT only).
+8.2. Add DB information to LLD Ideas (LT only).
 9. Link all requirements to at least 1 business requirement (CA only).
 10. Meeting prep.
 
@@ -144,6 +144,47 @@ Due By Saturday (2020-06-13)
 13. First HLD UML diagram (LUID only).
 14. Pick and list all classes in LLD ideas (LT only).
 15. Check formatting on all documents (DS only).
+
+===
+Week 4 (2020-06-14)
+
+---
+Due By Tuesday (2020-06-16)
+
+1. Make at least 3 constructive comments, in the appropriate channel, about a deliverable you are not the primary responsible party for.
+2. Cleanup of SRS Draft: all divisions fixed, full paragraph descriptions where appropriate, etc (CA only).
+3. Create 2 sequence diagrams for SRS (LT only).
+4. HLD (LSD, LUID only).
+4.1. Finish design summary (HLD 2).
+4.2. Add security and hardware divisions (HLD 3.1, 3.2).
+4.3. Add UI division (HLD 3.3).
+4.4. Add architecture division (HLD 3.6).
+4.5. Finish describing/diagramming all class info (HLD 3.10).
+5. Finish LLD *Final* template [in plaintext] (LSD, LT only).
+6. Meeting prep.
+
+---
+Due By Thursday (2020-06-18)
+
+7. Add at least 3 ideas of LLD ideas, based upon our template.
+8. Copyedit of SRS Draft [in plaintext] (DS only).
+9. Second HLD UML diagram (LUID only).
+10. Begin adding test procedures, info to LLD (LT only).
+11. Meeting prep.
+
+---
+Due By Saturday (2020-06-20)
+
+12. Template SRS Draft, including all graphics (DS only).
+13. HLD (LSD, LUID only).
+13.1. Add internal and external interfaces (HLD 3.4, 3.5).
+13.2. Add reports (HLD 3.7).
+13.3. Add database (HLD 3.9).
+14. LLD (LSD, LT only).
+14.1. Add general DB info.
+14.2. Add DB tables (incl PKs and linking table(s)) and relationships.
+14.3. Add any other DB access controls, restrictions, etc.
+15. Check formatting on all documents *and* reach out to anyone who is still having trouble with commit messages (DS only).
 
 +++
 Ground Rules
