@@ -10,7 +10,7 @@ By Jeremiah Thomas, et al
 
 Created on 2020-05-24
 
-Updated on 2020-06-04
+Updated on 2020-06-09
 
 +++
 Overview
@@ -21,7 +21,7 @@ I've worked on a number of projects before but most have either been with a smal
 **Customer Advocate**: Sandhya Joshi
 **Documentation Specialist**: Anna Malmberg
 **Lead Software Developer**: Zachary Wawrzaszek
-**Lead UI Designer**:
+**Lead UI Designer**: Jack Kagan
 **Lead Tester**: Stavros Bannoura
 
 +++

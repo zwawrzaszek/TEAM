@@ -1,0 +1,42 @@
+Meeting Minutes 3.1
+
+https://github.com/bizzlebin/team/meeting_minutes/meeting_minutes_2.2.txt
+
+***
+
+By Anna Malmberg, et al
+
+***
+
+Created on 2020-06-09
+
++++
+Summary
+
+Thursday meeting on 2020-06-09 of TEAM Exists As Metonym, to discuss progress, focus on SRS, HLD progress and new releases. Vote on LLD detail to focus on.
+
+**Call To Order**: Jeremiah Thomas 20:00
+
++++
+Attendance
+
+**Present**: Anna Malmberg, Sandhya Joshi, Stavros Bannoura, Zachary Wawrzaszek, Jeremiah Thomas, Jack Kagan
+**Absent**: None
+
++++
+Presentations
+
+**Anna**: Released separate glossaries for HLD and LLD, made minor formatting updates to several documents, created some user stories, will create more and add to SRS draft
+**Jack**: Worked on class assignments
+**Sandhya**: Completed SRS draft, added section 2.4, finished sorting and formatting requirements according to M[o]SC[o]W, will format collaboration method next
+**Stavros**: Discussed sketches with Zachary for diagrams, added collaboration tools in section 2 of the SRS, to add information about the database next, including SQLite access control, instances
+**Zach**: Rough drafts of class hiearchies posted HLD channel, added terms to glossary and tasks to task list, posted second draft of architecture including cases for deleting and searching for a file as well as creating one.
+**Jeremiah**: Completed initial M[o]SC[o]W on the SRS requirements, updated readme for week 3, worked on week 4 tasks, to be released tonight
+
+**Vote on LLD detail**: Stavros: GUI, Zach: user, Anna: user, Sandhya: user, Jack: user, Jeremiah: GUI. LLD detail to focus on user.
+
++++
+Adjournment
+
+**Call To Close**: Jeremiah Thomas 20:24
+**Next Meeting Scheduled** 2020-06-11 20:00
