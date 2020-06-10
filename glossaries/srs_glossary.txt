@@ -51,6 +51,8 @@ F
 ===
 G
 
+**Git**: Distributed version-control system used for tracking source code during software development 
+**GitHub**: Company that provides hosting for software development verison control using Git.
 **GUI**: Graphical User Interface
 
 ===
@@ -112,6 +114,7 @@ R
 ===
 S
 
+**Slack**: Proprietary business commuinication platform that features chat and file sharing
 **SQLite**: A database that operates directly from library function calls, without a separate process or server
 **Term**: 
 
