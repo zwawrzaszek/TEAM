@@ -4,13 +4,13 @@ https://github.com/bizzlebin/team/docs/srs_draft.txt
 
 ***
 
-By Sandhya Joshi
+By Sandhya Joshi et al
 
 ***
 
 Created on 2020-06-04
 
-Updated on 2020-06-09
+Updated on 2020-06-10
 
 +++
 Description
@@ -245,13 +245,22 @@ Manager wants to pull data of people who have recently ordered prescription for 
 +++
 9. Use Case And User Stories
 
-1. A Customer calls the MHC customer care service. 
-2. He would like to know whether he has met his deductible
-3. Representative askes his date of birth and last four digits of social no for verification.
-4. Representative checks his account. 
-5. A caseId is pulled up with his information.
-6. All the previous doctor visits are recorded in his file.
-7. Representative checks his current balance and provides the information.
+**B1US01**: As a customer care representative, I need quick access to policy information, benefits and estimates to share with the customer.
+**B2US01**: As a customer care representative, I want to access all case related documents while on the phone with the customer.
+**B3US01**: As a manager, I want my employees to be able to find training documents and report templates when they need them.
+**B4US01**: As legal council, I need to be able to audit the software to ensure confidentialty of all customer records.
+**B5US01**: As a customer care representative, I want all case related documents to be easy to organize and view.
+
+===
+
+**F1US01**: 
+**F2US01**: As an administrator, I need to be able to log in to the tag database to perform routine maintenace.
+**F3US01**: As a manager, I need to be able to log in to the tag database and create new tags, delete old tags and edit existing tags for clarity and content.
+**F4US01**: 
+**F5US01**:
+**F6US01**: As a manager, I need to create specialized tags for my employees to ensure they can find all documents that they need.
+**F7US01**: As legal council, I need to be able to audit employee permissions to ensure nobody has received access past their clearance level.
+**F8US01**: As a customer care representative, I want to be able to sort found files based on date created and claim type.
  
 See User Story vs Use Case (Plain Text Link: https://www.visual-paradigm.com/guide/agile-software-development/user-story-vs-use-case/)
 
