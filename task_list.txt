@@ -42,6 +42,8 @@ SRS
 ••• FR 1 (SRS 4.1)
 ••• NFR 1 (SRS 5.1/6.1/7.1)
 •• User Story (SRS 8)
+•• Use Case (SRS 8)
+•• Sequence Diagrams (SRS 9)
 •• Appendices
 ••• M[o]SC[o]W (SRS 10.1)
 ••• Procedures (SRS 10.2)
@@ -63,6 +65,7 @@ HLD
 •• Introduction (HLD 1)
 •• Design Summary (HLD 2)
 •• Design Details (HLD 3)
+••• Report types (audting for confidentiality - cradle to grave analysis?, removal of unused tags)
 ••• Create UML Behavior Diagram (required)
 ••• Create UML Structure Diagram (required)
 
