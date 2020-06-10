@@ -10,7 +10,7 @@ By JBT
 
 Created on 2019-08-25
 
-Updated on 2020-05-21
+Updated on 2020-06-09
 
 ***
 
@@ -146,14 +146,14 @@ Note: Any code of unknown type (eg, markup) goes into Output by default.
 	Optional paragraphs may follow, providing more details about the *use* of the class; these may get parsed as documentation.
 
 	+ public_method(params)
-	= restricted method(params)
-	- private method(params)
+	# restricted_method(params)
+	- private_method(params)
 	'''
 	'''
-	A second doctring, directly after the first, may be used to document the unexposed *design* of the class and issues related to the development and testing, particularly if there are concerns which cannot be adequately addressed by inline comments.
+	A second docstring, directly after the first, may be used to document the unexposed *design* of the class and issues related to the development and testing, particularly if there are concerns which cannot be adequately addressed by inline comments.
 	'''
 
-	def class_method(): #  Read Definitions, below; don't forget to leave 1 blank line after the doctring(s)
+	def class_method(): #  Read Definitions, below; don't forget to leave 1 blank line after the docstring(s)
 		...
 ]
 #
@@ -173,10 +173,10 @@ Note: Any code of unknown type (eg, markup) goes into Output by default.
 	Returns tuple (hashes of list), int (number of ...) # If there are no returns, write "No returns"
 	'''
 	'''
-	A second doctring, directly after the first, may be used to document the unexposed *design* of the function and issues related to the development and testing, particularly if there are concerns which cannot be adequately addressed by inline comments.
+	A second docstring, directly after the first, may be used to document the unexposed *design* of the function and issues related to the development and testing, particularly if there are concerns which cannot be adequately addressed by inline comments.
 	'''
 
-	if value: # Don't forget to leave 1 blank line after the doctring(s)
+	if value: # Don't forget to leave 1 blank line after the docstring(s)
 		...
 ]
 # 
