@@ -10,7 +10,7 @@ By Zachary Wawrzaszek, et al
 
 Created on 2020-05-28
 
-Updated on 2020-06-10
+Updated on 2020-06-11
 
 +++
 Description
@@ -29,3 +29,7 @@ As far as SQLite and creating instances of a database, since our application is 
 Class Ideas
 
 ===
+Zachary Wawrzaszek
+
+Class ideas:
+• Add a third level of user class that will handle all user creation and privilege methods. The mid level user class can delete and edit tags. The lowest level user can only create and search for tags. We can move around which permissions we think each level should have.
