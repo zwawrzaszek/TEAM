@@ -43,3 +43,8 @@ Anna Malmberg
 
 Class ideas:
 • A "master" tag class that can access/display all the tags related to one document, it could have information about when each tag was created and by whom etc. This could assist in auditing processes. Not sure if this would be more fitting for a method?
+
+===
+Jeremiah Thomas
+
+• Add a Main class, which calls the GUI and interacts with the user(s) and DB
