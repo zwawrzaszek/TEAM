@@ -12,7 +12,7 @@ By Jeremiah Thomas, et al
 
 Created on 2020-05-24
 
-Updated on 2020-06-08
+Updated on 2020-06-12
 
 ***
 
@@ -153,7 +153,9 @@ Due By Tuesday (2020-06-16)
 
 1. Make at least 3 constructive comments, in the appropriate channel, about a deliverable you are not the primary responsible party for.
 2. Cleanup of SRS Draft: all divisions fixed, full paragraph descriptions where appropriate, etc (CA only).
-3. Create 2 sequence diagrams for SRS (LT only).
+3. SRS diagrams.
+3.1. Create 2 sequence diagrams for SRS (LT only).
+3.2. Create 2 UML diagrams for SRS (LUID only).
 4. HLD (LSD, LUID only).
 4.1. Finish design summary (HLD 2).
 4.2. Add security and hardware divisions (HLD 3.1, 3.2).
@@ -180,6 +182,7 @@ Due By Saturday (2020-06-20)
 13.1. Add internal and external interfaces (HLD 3.4, 3.5).
 13.2. Add reports (HLD 3.7).
 13.3. Add database (HLD 3.9).
+13.4. Add data flow diagram (HLD 3.12).
 14. LLD (LSD, LT only).
 14.1. Add general DB info.
 14.2. Add DB tables (incl PKs and linking table(s)) and relationships.
@@ -205,4 +208,4 @@ Metametadata
 **meta_author**: Jeremiah Thomas
 **meta_generator**: Notepad++
 **meta_created**: 2020-05-24
-**meta_updated**: 2020-06-08
+**meta_updated**: 2020-06-12
