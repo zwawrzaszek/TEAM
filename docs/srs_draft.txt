@@ -10,7 +10,7 @@ By Sandhya Joshi et al
 
 Created on 2020-06-04
 
-Updated on 2020-06-10
+Updated on 2020-06-11
 
 +++
 Description
@@ -343,6 +343,29 @@ What is a Sequence Diagram (Plain Text Link: https://www.visual-paradigm.com/gui
 
 ===
 11.2. Procedures For Project Requirement Changes
+
+To submit a change request, a team member must create a numbered section in the change_requests.txt file. This section must contain, in description list items, the status (open), the ID of the requirement, the updated requirement text, the rationale, the requester's name, and the request's open date as follows:
+
+"""
+===
+0. Example Change
+
+**Status**: Open
+**Requirement ID**: [ID of requirement (eg, B1); use the official req code, not the M[o]SC[o]W numbering; make a new ID if the requirement is new]
+**Requirement text**: [Full text of the proposed change; for new requirements, simply make a new text]
+**Rationale**: [*Briefly* describe why the change should be made]
+**Requester**: [Name]
+**Open date**: [ISO date]
+"""
+
+During the next team meeting, the change control board must vote on all active items. The status must be changed to "Closed" by the CA (customer advocate). The CA must add in the rest of the fields—namely the close date (the date of the vote) and the result (with description according their judgment, if it was not discussed at the time of the vote)—and then update the SRS itself with the new requirement, if approved. The format is:
+
+"""
+**Status**: Closed
+...
+**Close date**: [ISO date]
+**Result**: Accepted|Rejected: [brief description of why the change was accepted or rejected, including if the requirement text in the change request was modified]
+"""
 
 ===
 11.3. Schedule
