@@ -1,0 +1,41 @@
+Meeting Minutes 3.2
+
+https://github.com/bizzlebin/team/blob/master/meeting_minutes/meeting_minutes_3.2.txt
+
+***
+
+By Anna Malmberg, et al
+
+***
+
+Created on 2020-06-11
+
++++
+Summary
+
+Thursday meeting on 2020-06-11 of TEAM Exists As Metonym, to discuss progress, focus on SRS, HLD progress and new releases. Vote on allowing LUID to continue collaborating with TEAM.
+
+**Call To Order**: Jeremiah Thomas 20:00
+
++++
+Attendance
+
+**Present**: Anna Malmberg, Stavros Bannoura, Zachary Wawrzaszek, Jeremiah Thomas, Jack Kagan
+**Absent**: Sandhya Joshi
+
++++
+Presentations
+
+**Zachary**: Added class to LLD idea document, planned to work on adding new class ideas to structure diagram over the weekend.
+**Stavros**: Released SRS diagram on SRS channel, GUI mockup drawing on repo
+**Jack**: Worked on catching up on classwork
+**Anna**: Posted use case diagram on SRS channel, planned to work on formatting again to end out the week
+**Jeremiah**: Conducted small sessions with individual team members, corrected some issues in NKCP, uploaded UEWSG-compliant template for documents, updated readme with week 4. Worked on updating task list and finalizing change control board procedures.
+
+**Vote on removal of LUID**: 2 retain, 1 remove, 1 abstain, 1 absent. LUID to stay with TEAM.
+
++++
+Adjournment
+
+**Call To Close**: Jeremiah Thomas 20:38
+**Next Meeting Scheduled** 2020-06-16 20:00
