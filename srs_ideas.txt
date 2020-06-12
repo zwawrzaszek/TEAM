@@ -10,6 +10,8 @@ By Sandhya Joshi
 
 Created on 2020-05-28
 
+Updated on 2020-06-07
+
 +++
 Description
 
@@ -17,3 +19,138 @@ This is where we will be adding our ideas for the construction of our high level
 
 
 Who, what when where, why and how 
+
+===
+Anna Malmberg
+
+Business requirements:
+• Insurance agent shall be able to log in to the system and find related documents by using keywords related to the client or project
+• System shall create a client and project specific tags when a new client or project is created
+• Managers shall be able to create additional tags that their group requires
+• Tags shall stay assigned to document if moved to a different project or directory
+• Project relevant tags shall be assigned to any document that is added to a tagged project folder
+• System assigned tags shall only be deleted by managers, agent assigned tags may be deleted by agent
+• Tags shall not allow users to access documents that they do not have permissions to access
+
+Functional requirements:
+• Administrator log in shall be required to manage the tag database
+• Windows log in shall be recognized when adding tags to shared files or folders
+
+Non-functional requirements:
+• System shall produce a report that lists number of current tags, showing days since last used and number of current documents using tag
+
+Interface requirements:
+• User interface for adding personal tags shall be on mouse-right-click drop down
+• User interface for managing personal tags shall require log in
+• User Interface shall offer options for personalized color schemes for tags
+
+Performance requirement:
+• System shall keep all tags until deleted by user or administrator
+• System shall not impact performance of other applications
+
+===
+
+Stavros Bannoura
+
+Business requirement: 
+• Should effectively create a file tag management system that ensures reliability, usability and intuitive capabilities and features. 
+• This means a user should be capable of learning how to use the system fairly quickly so that the user can get on to the important stuff.
+
+Functional requirement: 
+• What are the main features that we want for this application? 
+• How can prioritize the feature list? (following MOSCOW)
+
+Non-functional requirement:
+• How can we make the system reliable? What are the implications to take?
+• What can we do to make the app secure?
+• The application must be able to support users effectively organizing files. 
+
+Interface requirement:
+• How can we smoothly connect to other databases?
+• What type of inheritance will we be using? 
+
+Performance requirement:
+• How much possible capacity can the database hold?
+• Whats the type of speed that we want for this application?
+• How will we optimize the application to be effective?
+
+===
+Zachary Wawrzaszek
+
+Business requirements:
+• Software shall take into account HIPPA laws and all data and transfers of data shall be completley secure (encryption?)
+• Software will be be simplistic in design allowing for people to be quickly trained (Consider making short instruction manual?)
+
+Functional requirements:
+• Relevant employee login will be required to delete, edit, and create tags
+• Files that have been returned from a tag search will have additional methods available to sort based on filetype?
+• Files that have been searched will be support drag and drop?
+
+Nonfunctional requirements:
+• Software must be able to support many (100s ?) users/employees ability to create, access, and modify tags simultaneously
+• Software must keep all tags up to date in real time as they are added, deleted, modified
+
+Interface requirements:
+• GUI will include a centralized (easily spotted) search bar for the searching of tags
+• GUI will include history tab for recently searched and accessed tags/files
+
+Performance requirements:
+• Software will be able to pull and display files based on search criteria in a reasonable amount of time (less than 15 seconds?)
+• Software will be relativley lightweight (not hog processing power) and not affect other business necessary operations that must also be performed
+
+===============
+Sandhya Joshi
+
+Business Requirement
+•	Insurance Company wants to maintain its Quality of Service by providing best customer care service in timely manner.
+•	Insurance Company wants to maintain all its customer's data so that it can be searched efficiently and effectively.
+•	Insurance Company wants to maintain Customer Retention rate by providing the healthcare incentives to the customers.
+
+Functional requirement.
+•	System shall maintain a user portal for policy members.
+•	Customer care representative shall be able to retrieve the policy holder information using a keyword from their database.
+•	Customer care representative shall be able to retrieve all the case history by searching caseId or tag number.
+•	System shall assign reward points to policy holder based on their medical history and lifestyle.
+
+Non-Functional Requirement.
+•	System should be available 24x7 for all users.
+•	Database system should perform database maintenance every midnight.
+•	Customer representative should follow HIPAA regulations.
+
+Interface  requirement.
+•	UI should able search using drop down menu or by typing and searching the information.
+•	UI should be able to connect to the database.
+
+Performance requirement.
+•	All the previous tags and searches should be saved.
+•	What is the maximum capacity of the database are we creating?
+•	Can it survive data overload ?
+
+===
+Jeremiah Thomas
+
+---
+Business Requirement
+
+• Find files when filename, filetype, and location are unknown
+
+---
+Functional Requirement
+
+• Produce regular reports on most popular tags, searches (tag combos)
+
+---
+Non-Functional Requirement
+
+• Make no changes to any file or file's metadata
+
+---
+Interface Requirement
+
+• Main pane must be able to change target directory
+• Secondary pane must have a check box is allow/disallow searching subdirectories
+
+---
+Performance Requirement
+
+• Start searching in n seconds after a tag match is guessed but the user is still typing

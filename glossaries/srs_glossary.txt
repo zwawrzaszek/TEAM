@@ -1,0 +1,155 @@
+SRS Glossary
+
+https://github.com/bizzlebin/team/glossaries/srs_glossary.txt
+
+***
+
+By Anna Malmberg et al
+
+***
+
+Created on 2020-06-03
+
+Updated on 2020-06-09
+
++++
+
+This glossary of terms is a living document, please add any definitions of words, acronyms or abbreviations that are relevant to the SRS document in alphabetical order. If the term will used in the HLD and LLD documents also, please add it to all three glossaries!
+
++++
+A
+
+**API**: Application Programming Interface
+**Term**:
+**Term**:
+
+===
+B
+
+**Term**: 
+
+===
+C
+
+**Customer**: A person who uses services proviced by Insurance Company
+
+===
+D
+
+**DBMS**: Database Management System
+
+===
+E
+
+**Term**: 
+
+===
+F
+
+**Term**: 
+
+===
+G
+
+**Git**: Distributed version-control system used for tracking source code during software development 
+**GitHub**: Company that provides hosting for software development verison control using Git.
+**GUI**: Graphical User Interface
+
+===
+H
+
+**HIPAA**: The Health Insurance Portability and Accountability Act of 1996.
+
+===
+I
+
+**Term**: 
+
+===
+J
+
+**Term**: 
+
+===
+K
+
+**Term**: 
+
+===
+L
+
+**Term**: 
+
+===
+M
+
+**Metadata**: Data about data, or data which further describes the properties, qualities, and/or quantities of other data
+**Term**: 
+
+===
+N
+
+**Term**: 
+
+===
+O
+
+**Term**: 
+
+===
+P
+
+**Term**: 
+
+===
+Q
+
+**Term**: 
+
+===
+R
+
+**Term**: 
+
+===
+S
+
+**Slack**: Proprietary business commuinication platform that features chat and file sharing
+**SQLite**: A database that operates directly from library function calls, without a separate process or server
+**Term**: 
+
+===
+T
+
+**Tag**: A string without spaces which provides categorical information about its object
+**Term**: 
+
+===
+U
+
+**UML**: Unified Modeling Language
+
+===
+V
+
+**Term**: 
+
+===
+W
+
+**Term**: 
+
+===
+X
+
+**Term**: 
+
+===
+Y
+
+**Term**: 
+
+===
+Z
+
+**Term**: 

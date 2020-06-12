@@ -1,0 +1,25 @@
+Change Requests
+
+https://github.com/bizzlebin/team/change_requests.txt
+
+***
+
+By Jeremiah Thomas, et al
+
+***
+
+Created on 2020-06-12
+
++++
+
+===
+0. Example Request To Implement CCB Procedures
+
+**Status**: Closed
+**Requirement ID**: CCB1
+**Requirement text**: For the SRS final, all requirement changes must be made here.
+**Rationale**: This keeps changes centralized and clear, reducing miscommunication and oversight across the project
+**Requester**: Jeremiah Thomas
+**Open date**: 2020-06-12
+**Close date**: 2020-06-12
+**Result**: Accepted: unless someone comes up with a more efficient system, this looks like the way to go!

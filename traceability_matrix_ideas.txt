@@ -1,0 +1,51 @@
+Traceability Matrix Ideas
+
+https://github.com/bizzlebin/team/traceability_matrix_ideas.txt
+
+***
+
+By Anna Malmberg et al
+
+***
+
+Created on 2020-06-02
+
+Updated on 2020-06-07
+
++++
+Description
+
+Creating a traceability matrix that is easy to read without using a table is going to be a bit of a challenge. Here are some ideas.
+
+===
+From: https://www.guru99.com/traceability-matrix.html
+
+Req. ID		Req. Descr.    	Applicable Role			Testcase ID   	Testcase Descr.		Status			Tested by        
+
+FR1.1		Login to the    User					TC01			Enter username		TC01-Pass       AM
+			application								TC02			Enter password		TC02-Fail		SB		
+
+[The problem with this one is that we would have to keep the "table" neat using just tabs, and when you need to wrap your text into a second row it will shift everything down. That being said, I think something like this would be the most visual and easy to follow solution.]
+
+---
+Updated version of the first matrix
+
+Req ID		Applicable Role			Testcase Descr.		Status			Tested by        
+
+F1P01		User					Enter username		True		    AM
+F1P02		User					Enter password		False			SB		
+
+===
+**Req. No**: FR1.1
+**Req. Descr.**: Login to the application
+**Testcase ID**: TC01, TC02
+**Status**:TC01-Pass, TC02-Fail
+
+[Formatting this will be easier, on a large project it may become difficult to follow but it would probably be ok for us.]
+
+===
+		Req. FR1.1	Req. FR1.2	Req. BR1.1	Req BR2.1	
+TC01	pass		NA						pass
+TC02	fail		fail		pass	
+
+[This format would require grouping the requirements by for example business requirement, or functional requirement, and having a clear definition somewhere explaining what each requirement is and what the test cases were.]

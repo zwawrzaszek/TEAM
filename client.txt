@@ -1,27 +1,32 @@
-Client.txt 
+Client
 
-Who are we selling to ?
-What specific industry that are best suited for the offering?
-After identifying the target market , we have create customer persona.
-Profiles and Personas are based on the info gathered during elicitation
-A persona is both business and user’s goals
-Typical situations or scenarios
-Category of users
-Our client can be divided in my categories : Age, gender, geographic location, interest and occupation.
-Behaviors -the way user interact with feature to solve the problem
-In our case our client is a user who wants to make use of our tag-based file searching software to search their file faster.
-Based on their needs they will use this feature.
-Use cases : A person searching for pictures stored in his PC or any device, based on his previous search it will populate the suggestions.
+https://github.com/bizzlebin/team/client.txt
 
+***
 
-Our client is an Insurance Company  Lets says My Health Care, where they maintain their data for each policy members. According to FERPA,each policy holder’s data should not be disclosed to anyone. 
-Policy holder data contains their personal information like social security number and birthdate. 
-Along with that information they have all information about person’s medical history, recent hospital visits. Prescription medication,any medical surgeries etc. 
-This information gets updated every year as the policy holder/patient medical information changes.
-The healthcare system needs to keep track of these records. This information would be used by the employees at MHC. 
-Most of the policy member call the customer care with questions regards  to their benefits, claims, 
-sometimes even ask for details of the specialist who participates in their network.
-Usually employee needs to provide these information within certain time frame. They cannot keep the customer on hold more than 3 mins.
-Employee has to get this information fast and accurate. They need some technology which pulls the information based on person’s recent medical history changes.
-Or even based on the recent enquires. Based on these logs the customer care employee can provide the information efficiently and effectively.
+By Sandhya Joshi, et al
 
+***
+
+Created on 2020-05-27
+
+Updated on 2020-06-07
+
++++
+
+Client Name: My Healthcare
+Industry: HealthCare
+Business:Insurnace company
+
+Business Requirement:
+1.Insurance Company wants to enhance its Quality of Service by providing best customer care service in timely manner 
+2.Insurance Company wants to maintain customer's data in such way that can be searched efficiently and effectively.
+3.Insurance Company wants to maintain Customer Retention rate by providing the healthcare incentives to the customers
+
+Our client is an Insurance company  where they maintain their data for each policy members. According to HIPAA, each policy holder’s data should not be disclosed to anyone.
+
+Policy holder data contains their personal information like social security no and birthdate. Along with that information they have all information about person’s medical history, recent hospital visits. Prescription medication, any medical surgeries etc. This information gets updated every year as the policy holder/patient medical information changes.
+
+This data is stored internally for the organization. This data is not available for the customers. The healthcare system needs to keep track of these records. This information would be used by the employees at MHC. Most of the policy member call the customer care with questions regards  to their benefits, claims, billing, sometimes even ask for details of the specialist who participates in their network.
+ 
+Usually employee needs to provide these information within certain time frame. They cannot keep the customer on hold more than 3 mins. Employee has to get this information fast and accurate. They need some technology which pulls the information based on person’s recent medical history changes. Or even based on the recent enquires. Based on these logs the customer care employee can provide the information efficiently and effectively.

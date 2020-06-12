@@ -1,0 +1,86 @@
+Task List
+
+https://github.com/bizzlebin/team/task_list.txt
+
+***
+
+By Jeremiah Thomas, et al
+
+***
+
+Created on 2020-05-26
+
+Updated on 2020-06-07
+
++++
+
+Please add items as per the weekly assignment(s). Every task is broken into subtasks, based on the number of bullet points (this will be a creative way to play with the UEWSG list format plus keep the document simple). Tasks won't be timed directly here (I may add that if you think it would help) but do not break out any task that is very short or unsubstantive so we don't get lost in the minutiae.
+
+===
+Pitch
+
+• Pitch Ideas
+
+• Pitch
+•• Edits
+•• Copyedit
+•• Final acceptance edit
+
+===
+SRS
+
+• SRS Ideas
+•• Pick ideas
+
+• Client
+
+• SRS (first draft)
+•• Introduction (SRS 1)
+•• General Description (SRS 2)
+•• Requirements
+••• BR 1 (SRS 3.1)
+••• FR 1 (SRS 4.1)
+••• NFR 1 (SRS 5.1/6.1/7.1)
+•• User Story (SRS 8)
+•• Use Case (SRS 8)
+•• Sequence Diagrams (SRS 9)
+•• Appendices
+••• M[o]SC[o]W (SRS 10.1)
+••• Procedures (SRS 10.2)
+••• Schedule (SRS 10.3)
+••• RTM (SRS 10.4)
+•• Copyedit
+•• Template
+•• Final acceptance edit
+
+===
+HLD
+
+• HLD Ideas
+•• Pick ideas
+•• Create very-high-level overview
+•• Settle on base classes/functions that we need
+ 
+• First draft
+•• Introduction (HLD 1)
+•• Design Summary (HLD 2)
+•• Design Details (HLD 3)
+••• Report types (audting for confidentiality - cradle to grave analysis?, removal of unused tags)
+••• Create UML Behavior Diagram (required)
+••• Create UML Structure Diagram (required)
+
+===
+LLD
+
+• LLD Ideas
+•• Pick/decide on ideas
+•• Decide what database we want e.g. Relational, etc.
+•• Pick the normalization that we can use
+•• Create drafts of psuedo-code for how certain functions will be performed
+
+• LLD Draft
+•• Introduction (LLD 1)
+•• 
+••
+
+?

@@ -1,0 +1,40 @@
+Meeting Minutes 2.2
+
+https://github.com/bizzlebin/team/meeting_minutes/meeting_minutes_2.2.txt
+
+***
+
+By Anna Malmberg, et al
+
+***
+
+Created on 2020-06-04
+
++++
+Summary
+
+Thursday meeting on 2020-06-04 of TEAM Exists As Metonym, to discuss progress, focus on SRS draft, and new releases
+
+**Call To Order**: Jeremiah Thomas 20:00
+
++++
+Attendance
+
+**Present**: Anna Malmberg, Sandhya Joshi, Stavros Bannoura, Zachary Wawrzaszek, Jeremiah Thomas, Jack Kagan
+**Absent**: None
+
++++
+Presentations
+
+**Jeremiah**: Released task list, made updates to readme, posted more assignments for week 3
+**Zachary**: Released template for HLD draft, including intro, purpose and scope sections, also posted concept drawing of HLD on Slack channel. Planned to start working with Stavros on classes and fuction over the weekend, also planned to add collaboration tool section to HLD draft. Requested feedback on completed work with HLD, including drawing.
+**Stavros**: Planned to add acronyms to SRS glossary and planned to start collaborating with Zachary on HLD and LLD. Released tests.txt on repo.
+**Sandhya**: Released SRS draft, including all requirements suggestions. Requested feedback on SRS draft.
+**Jack**: Worked on catching up on classwork, planned to start working on group tasks over the weekend
+**Anna**: Released SRS glossary and traceability matrix. Requirement ID's should follow a naming convention of [type][number].[subsection], eg BR1.1 for business requirement 1.1
+
++++
+Adjournment
+
+**Call To Close**: Jeremiah Thomas 20:17
+**Next Meeting Scheduled** 2020-06-09 20:00

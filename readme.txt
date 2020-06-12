@@ -12,7 +12,7 @@ By Jeremiah Thomas, et al
 
 Created on 2020-05-24
 
-Updated on 2020-05-26
+Updated on 2020-06-12
 
 ***
 
@@ -25,21 +25,9 @@ All rights reserved.
 +++
 Welcome
 
-Welcome to the project readme for our team, tentatively named...TEAM (TEAM Exists As Metonym)! This will be our "home base" for the CSC 154 documentation project and todo list. I will try to keep most of the key information here because we have such a small group. However, as needed, I will break out some content into other files, which I will prominently note here, including any graphical representation we feel will be helpful. 
+Welcome to the project readme for our team, tentatively named...TEAM (TEAM Exists As Metonym)! This will be our "home base" for the CSC 154 documentation project and todo list. I will try to keep most of the key information here because we have such a small group. However, as needed, I will break out some content into other files. 
 
-Keep in mind that this is a public repo so we won't be posting any e-mail addresses, links to our other collaboration tools, etc. We'll have regular group meetings (make your questions known then if possible so everyone can benefit from the answers) and some [emotion and thought] communication elsewhere but everything of substance should be committed here—even the meeting minutes. By doing the majority of our work in the open on Git, we will not only have better control of versioning but something we can all share in the future on a résumé; I plan to keep this repo open and public indefinitely.
-
-+++
-Project Directories And Files
-
-**docs/**: All of the deliverables
-**resources/**: All of the tools and information—or links to them in the readme—that we will use to format our documents throughout the project; consider this to be the general "help" directory
-
-**readme.txt**: If you're reading this, you know what and where it is!
-**availability.txt**: Please keep your availability updated
-**roles.txt**: Group roles and assignments
-**change_requests.txt**: After requirements are set, change requests must be made formally
-**pitch_ideas.txt**: Ideas to further "flesh out" the product pitch
+Keep in mind that this is a public repo so we won't be posting any e-mail addresses, links to our other collaboration tools, etc. We'll have regular group meetings and some [emotion and thought] communication elsewhere but everything of substance should be committed here—even the meeting minutes. By doing the majority of our work in the open on Git, we will not only have better control of versioning but something we can all share in the future on a résumé; I plan to keep this repo open and public indefinitely.
 
 +++
 Schedule
@@ -76,6 +64,131 @@ Due By *Saturday* (2020-05-30)
 
 10. Copyedit of final Pitch document (document specialist only; we're still awaiting *substantive* information from the teacher about filetype and other reqs).
 
+===
+Week 2 (2020-05-31)
+
+---
+Due By Tuesday (2020-06-02)
+
+1. SRS Ideas work (add directly to text file).
+1.1. Propose at least 1 business requirement (SRS 3; please keep it to clear but concise bullet points as far as possible).
+1.2. Propose at least 1 functional requirement (SRS 4).
+1.3. Propose at least 1 non-functional requirement (SRS 5).
+1.4. Propose at least 1 interface requirement (SRS "6" (numbering is borked)).
+1.5. Propose at least 1 performance requirement (SRS "7").
+2. HLD Ideas work (add directly to text file).
+2.1. Propose at least 1 design issue (HLD 2.2).
+2.2. Propose at least 1 security design detail (HLD 3.1).
+2.3. Propose at least 1 UI design detail (HLD 3.3).
+2.4. Propose at least 1 internal interface design detail (HLD 3.4).
+2.5. Propose at least 1 external interface design detail (HLD 3.5).
+3. Meeting prep.
+3.1. Prepare your personal agenda (applies to every meeting; keep it short and view the meeting format spec for hints).
+3.2. E-mail PM any agenda/vote items (applies to every meeting).
+3.3. DB vote: research and choose top DB out of SQLite, Postgres, and MariaDB (vote during meeting).
+3.4. Person #6 expulsion vote: still no contact as of Sunday evening (vote during meeting).
+
+---
+Due By Thursday (2020-06-04)
+
+4. Client: clean up file, add more information (CA only).
+5. Design Overview: create very-high-level conceptual drawing (LSD only; consider SVG or other vector format or just scan a drawing).
+6. Tests: pick at least 5 types of tests and write a short paragraph detailing why each will help the app succeed (LT only).
+7. Requirements: create traceability matrix from all proposed SRS requirements (DS only; find a tabular method that is comprehensive and suitable for plaintext, whittling down any fields we don't need).
+8. SRS: complete Intro (1) and General Description (2) (CA only; formal, in /docs).
+9. HLD: complete Intro (1) (LSD only; formal, in /docs).
+10. Meeting prep.
+
+---
+Due By Saturday (2020-06-06)
+
+11. Task List: add exactly *3* items.
+12. Glossary: add at least *3* items.
+13. Check formatting on all documents (DS only).
+
+===
+Week 3 (2020-06-07)
+
+---
+Due By Tuesday (2020-06-09)
+
+1. SRS (CA only).
+1.1. Pick at least 20 requirements spanning the required categories (read SRS spec for list).
+1.2. Describe each requirement clearly in 1 sentence.
+1.3. Create M[o]SC[o]W for requirements.
+1.4. Add paragraph describing how we used the collaboration tool categories (new division: 2.4).
+2. HLD (LSD and LT only).
+2.1. Settle on base classes and/or functions for entire project (division 3.10).
+2.2. Add paragraph describing how we used the collaboration tool categories (add to division 2.3).
+3. UI wireframe or mockup (LUID only).
+4. First user story (DS only).
+5. Meeting prep.
+5.1. Vote on which leg of hierarchy to use for LLD.
+
+---
+Due By Thursday (2020-06-11)
+
+6. First use case (DS only).
+7. Sequence diagram for 1 SRS req (LUID only).
+8. LLD.
+8.1. Add 1 class idea to LLD Ideas.
+8.2. Add DB information to LLD Ideas (LT only).
+9. Link all requirements to at least 1 business requirement (CA only).
+10. Meeting prep.
+
+---
+Due By Saturday (2020-06-13)
+
+11. Complete General Description division (CA only; SRS 2).
+12. Procedures For Project Requirement Changes (PM only; SRS 11.2).
+13. First HLD UML diagram (LUID only).
+14. Pick and list all classes in LLD ideas (LT only).
+15. Check formatting on all documents (DS only).
+
+===
+Week 4 (2020-06-14)
+
+---
+Due By Tuesday (2020-06-16)
+
+1. Make at least 3 constructive comments, in the appropriate channel, about a deliverable you are not the primary responsible party for.
+2. Cleanup of SRS Draft: all divisions fixed, full paragraph descriptions where appropriate, etc (CA only).
+3. SRS diagrams.
+3.1. Create 2 sequence diagrams for SRS (LT only).
+3.2. Create 2 UML diagrams for SRS (LUID only).
+4. HLD (LSD, LUID only).
+4.1. Finish design summary (HLD 2).
+4.2. Add security and hardware divisions (HLD 3.1, 3.2).
+4.3. Add UI division (HLD 3.3).
+4.4. Add architecture division (HLD 3.6).
+4.5. Finish describing/diagramming all class info (HLD 3.10).
+5. Finish LLD *Final* template [in plaintext] (LSD, LT only).
+6. Meeting prep.
+
+---
+Due By Thursday (2020-06-18)
+
+7. Add at least 3 ideas of LLD ideas, based upon our template.
+8. Copyedit of SRS Draft [in plaintext] (DS only).
+9. Second HLD UML diagram (LUID only).
+10. Begin adding test procedures, info to LLD (LT only).
+11. Meeting prep.
+
+---
+Due By Saturday (2020-06-20)
+
+12. Template SRS Draft, including all graphics (DS only).
+13. HLD (LSD, LUID only).
+13.1. Add internal and external interfaces (HLD 3.4, 3.5).
+13.2. Add reports (HLD 3.7).
+13.3. Add database (HLD 3.9).
+13.4. Add data flow diagram (HLD 3.12).
+14. LLD (LSD, LT only).
+14.1. Add general DB info.
+14.2. Add DB tables (incl PKs and linking table(s)) and relationships.
+14.3. Add any other DB access controls, restrictions, etc.
+15. Check formatting on all documents *and* reach out to anyone who is still having trouble with commit messages (DS only).
+
 +++
 Ground Rules
 
@@ -95,4 +208,4 @@ Metametadata
 **meta_author**: Jeremiah Thomas
 **meta_generator**: Notepad++
 **meta_created**: 2020-05-24
-**meta_updated**: 2020-05-26
+**meta_updated**: 2020-06-12

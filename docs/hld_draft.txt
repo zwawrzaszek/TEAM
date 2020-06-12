@@ -1,0 +1,92 @@
+HLD Draft | TEAM Exists As Metonym
+
+https://github.com/Bizzlebin/TEAM/edit/master/docs/hld_draft.txt
+
+***
+
+By Zachary Wawrzaszek, et al
+
+***
+
+Created on 2020-06-03
+
+Updated on 2020-06-08
+
++++
+1. Introduction
+
+===
+1.1. Purpose
+
+The purpose of our project is to improve and expedite the process of searching for files on your computer. In general the software is for anyone who has ever had a difficult time locating a specific file they need to find quickly within their file manager. Our client specifically is an insurance company and they need the application to be able to quickly locate important medical and financial documents of varying filetype. Customer service representatives will especially benefit from the application because it will both simplify the search process and reduce the amount of time they need to keep a customer on hold, therefore, improving the mood of the customer and decreasing frustrations for the employee.
+
+===
+1.2. Scope Of This Document
+
+This document will outline the basic structure of our software's interfaces and provide general information about the inner workings of the application. This includes descriptions and diagrams of how the GUI will communicate with the database for the editing, creation, and retrieval of tags, as well as how the software will interface with each computers basic file manager. This will also include details about our design including issues, tradeoffs, our development and collaboration tools, and the libraries we have chosen to implement to assist in the construction of the software. Additionally details will be provided about security, hardware, reports and output, the database, the class structure, and the flow of data.
+
+===
+1.3. Definitions, Acronyms, And Abbreviations
+
+GUI - Graphic User Interface
+
++++
+2. Design Summary
+
+===
+2.1. Overview of Design
+
+===
+2.2. Design Issues
+
+===
+2.3. Tools 
+
+The group has been using Slack and GitHub as the primary collaboration tools. Slack is our main area of communication for the project but we do not only use it to communicate on how everyone is doing and what they need to work on next.
+We use Slack to have meetings at set times and this is all planned using GitHub as ill discuss later but we mainly use slack to discuss certain areas of the project. We have an LLD channel, a HLD, an SRS channel and a meetings channel
+where we usually only discuss meetings and use emojis for response. Each channel page is a place for who has the responsbility (given role) to only discuss the subject given and work a way towards completion. 
+Our other collaboration tool is our main focus on this project and we mainly use that to commit, merge, and work individually on our roles responsibilites per week assignment. We have coordinated information even in plain text that follows
+our procedure for the group which are the meeting hours in a text file, we have also given ourselves a schedule that we follow and is also in a text file on github. We also have a tasklist.txt which is what we have to keep track of the list of tasks so we dont get lost. As for other assignments they are listed individually in our master branch, the readme is in charge of giving us our weekly assignments and this only to be modified by the PM or DS. 
+
+===
+2.4. Libraries
+
++++
+3. Design Details
+
+===
+3.1. Security
+
+===
+3.2. Hardware
+
+===
+3.3. User Interfaces
+
+===
+3.4. Internal Interfaces
+
+===
+3.5. External Interfaces
+
+===
+3.6. Architecture
+
+===
+3.7. Reports
+
+===
+3.8. Other Output
+
+===
+3.9. Databases
+
+===
+3.10. Top-Level Classes (Class Hierarchy)
+
+===
+3.11. Configuration Data
+
+===
+3.12. Data Flows and States
+

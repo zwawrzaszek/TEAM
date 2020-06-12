@@ -10,10 +10,41 @@ By Zachary Wawrzaszek, et al
 
 Created on 2020-05-28
 
+Updated on 2020-06-11
+
 +++
 Description
 
 This is where we will be adding our ideas for the construction of our low level design document
 
-+++
+===
 
+Database Information:
+
+The database language we will be using is SQLite, since it is a file based database it will help out overall since we are dealing with file tagging. I want to discuss access control for the database, since we are dealing with HIPAA and insurance companies in general it is very important that the information that is being processed has strict access and control to that information when it is needed. So by putting in these standards for controlling access, only the trusted Database Administrator shall be in charge of accessing certain information. There a couple access controls we can follow that best suit this project and it is called Mandatory Access Control (MAC) or Role Based Access Control (RBAC). With MAC being a nondiscretionary model which means that people are granted access based on an information clearance, so that means the rights are assigned based on central authority regulations. RBAC on the other hand grants access to people with certain security priviliges such as "least privilege" and "seperation of privilege", so they can only access information based on their role. 
+
+As far as SQLite and creating instances of a database, since our application is based on insurance it is best to create any back up information so that nothing happens to the database itself when you access it from your computer. We should have an instance for creating a table based on that insurance clients information like their SSN and date of birth and so that this will mainly be in charge of holding the clients information on an instance. I was also thinking that we should create an instance for production which is used to contain live data for producing any information. The next instance that follows that is also pre-production which is in charge of testing new functionality before the product is released so this way we can organize what kind of functionality requirements that we should work on. Lastly following is a development instance where database developers create new functionality from the previous pre production functionalities so that can continue on to production of the product. 
+
+
+===
+Zachary Wawrzaszek
+
+Class ideas:
+• Add a third level of user class that will handle all user creation and privilege methods. The mid level user class can delete and edit tags. The lowest level user can only create and search for tags. We can move around which permissions we think each level should have.
+
+===
+Stavros Bannoura
+
+Class ideas:
+• Add a tag class that handles the file tagging information and data to transfer. 
+
+===
+Anna Malmberg
+
+Class ideas:
+• A "master" tag class that can access/display all the tags related to one document, it could have information about when each tag was created and by whom etc. This could assist in auditing processes. Not sure if this would be more fitting for a method?
+
+===
+Jeremiah Thomas
+
+• Add a Main class, which calls the GUI and interacts with the user(s) and DB

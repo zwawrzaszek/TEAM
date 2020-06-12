@@ -10,9 +10,120 @@ By Zachary Wawrzaszek, et al
 
 Created on 2020-05-28
 
+Updated on 2020-06-07
+
 +++
 Description
 
 This is where we will be adding our ideas for the construction of our high level design document
 
-+++
+===
+Anna Malmberg
+
+Design issues:
+• Supported platforms (e.g. windows only)
+• Supported devices (e.g. support for mobile)
+• Levels of tags (tags for both folders and documents)
+• Inheritance (should folder tags be inherited to documents)
+• Max number of tags per document
+
+Security Design detail:
+• Regular user log in integrated with network log in
+• Administrator access to database
+• Elevated access for managers
+• Create new tags from “pad”, required log in
+
+UI Design detai:
+• Add tag should be option on right click, alternately have a “pad” available for users to drag and drop tags onto documents
+• Creating related tags
+ 
+Internal interface design detail: 
+• Tag interface with database – send information to database of location that tag has been placed, database will need some type or arbitrary ID system for documents instead of document names so that it does not store confidential information
+
+External interface design detail:
+• Open control “pad” to create new tag
+• Mouse or touch pad for interface with humans
+
+===
+Zachary Wawrzaszek
+
+Design issues:
+• Max character length for tags
+• How will handle the adding of files to our application? (copy/paste, drag/drop)
+• Include a button that interfaces with the default file manager to copy entire heirarchy into our application?
+
+Security design details:
+• When tags are transferred to the database the transfer (network?) itself needs to be secure (encryption?)
+• Unique login ID and passwords for every employee
+• Login information will be specific to our application and separate from overall login
+• Varied privleges for different levels of employees?
+• Force password to be of certain length (10 chars?) include a capital, lowercase, number
+• Force change of password periodically (6 months?)
+
+UI design detail:
+• Have files and folder show up in list format like that of default file manager
+• Allow for selecting more than one file/folder at a time with drag click or shift click to tag all at once
+• Once a file/folder is selected there should be a text area where the user can enter their tag description
+• Have a menu bar located at the top for navigating options?
+
+Internal interface design detail:
+• I believe currently the only internal interface we have is between the GUI and the database
+• May need a way for database to have a File ID linked with multiple different tags?
+• May need a way for database to have a tag linked with multiple File ID's?
+
+External interface design detail:
+• Might want to create a way to interface with computers default file manager to expidite file transfer process
+
+===
+Stavros Bannoura
+ 
+Design Issue:
+• Should be cross platform possibly
+• How will the user want to seek IT-help if needed?
+
+Security design detail:
+• Provide options to reset password every 30 days
+• Provide an account
+• Provide user certain access or priviliges 
+• Provide an account reset if being used by multiple computers that are unassociated with you.
+• Provide 2FA (2-Factor Authentication) and other security protocols for security and mobilility.
+ 
+UI design detail:
+• After creating the tags display a popup showing that it is tagged.
+• Pick a color scheme that attracts users
+• Allow for a night mode feature for comfort of the user if picked. 
+ 
+ Internal interface design detail:
+• How can we handle the different database ID's
+• What will be the normality of the database forms? E.g. 1NF, 2NF, Etc. 
+
+ External interface design detail: 
+• Allow for Cloud storages
+
+===
+Jeremiah Thomas
+
+---
+Design Issue
+
+• We'll have to put in more work because we're building our own UI and can't bootstrap on the native file managers; however, this gives us more flexibility, control, and speed
+
+---
+Security Design Detail
+
+• Support user groups, not merely individual accounts
+
+---
+UI Design Detail
+
+• Provide list of filesystem metadata that we want to show in results (eg, last modified timestamp, created timestamp?) as the app is supposed to make sorting easier, not harder
+
+---
+Internal Interface Design Detail
+
+• Should we handle sorting in the DB or dump into Python and then sort?
+
+---
+External Interface Design Detail
+
+• What module will we use to access the filesystem?

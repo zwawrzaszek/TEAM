@@ -1,0 +1,59 @@
+Test ideas
+
+https://github.com/bizzlebin/team/tests.txt
+
+***
+
+By Stavros Bannoura, et al
+
+***
+
+Created on 2020-06-04
+
+Updated on 2020-06-07
+
++++
+
+Description
+
+This is where we will be adding our testing methods to use that best fits the project. 
+
+===
+
+Interface Testing:
+
+The GUI is the main component of the application we are using and i want to make sure that it is up to date and that every possible feature can be added to the UI.
+Interface testing is in charge of checking all the SRS requirements and than gathering that information from testing and make sure what is being developed is in the required
+documents. This type of testing overall will make the applications user interface much more friendly and appealing.
+
+---
+Performance Testing:
+
+When using the file tagger application we want to make sure that the performance is stable and can be used on a daily basis with very little issues or without any at all.
+By running a performance test for the app, the developers can tell a difference on whether the performance of the app is good or bad. There are many websites that we can use
+to test the application that we created, but once it is tested we can slowly increase the applications performance. 
+
+---
+Recovery Testing:
+
+I feel this type of testing will be helpful for our application because we are dealing with files and databases, so its good to be able to recover somethingi if needed.
+The purpose of recovery testing is checking whether the app can recover crashes and how well it can recover from a crash, this can come in handy when we do want to make the
+application perform well and have less frustrations when dealing with the application. The main goal of this is so testers can observe how the software can come back
+to normal flow of execution after crashing. So this is an important part for the users, these mechanisms need to be implemented. 
+
+---
+Usability Testing:
+
+The usability of the application is also something that should not be missed, to properly make an application that runs well and does its job is part of this testing phase.
+Its important that we check the user-friendliness of the app, this test will require the testers to check how usable the application is or how user-friendly it can be.
+If a user gets stuck on the application than that app need to be tested more heavily on its usability because we do not want the software not being able to be used.
+A good method or example to use is inviting other people to use the application without any of your help just so they can see how to use and give feedback on the application
+on if it was properly usable.
+
+---
+Alpha Testing:
+
+Even after performing many tests and deciding certain areas work or need fixing, alpha tests come in handy for the developers themselves because it is in charge of testing 
+the entire software. It is best to perform an alpha test because its important to look back at all the erros and issues that were given and documented for later. This is typically
+done during the last phase of development and in responsbility to the developers. This is because we need to know for sure that when we release the product to the client for real world use
+that he/she gets an error free software app. Alpha testing is usually done before Beta testing, but it does come after and will need to be performed. 
