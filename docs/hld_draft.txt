@@ -18,7 +18,7 @@ Updated on 2020-06-08
 ===
 1.1. Purpose
 
-The purpose of our project is to improve and expedite the process of searching for files on your computer. In general the software is for anyone who has ever had a difficult time locating a specific file they need to find quickly within their file manager. Our client specifically is an insurance company and they need the application to be able to quickly locate important medical and financial documents of varying filetype. Customer service representatives will especially benefit from the application because it will both simplify the search process and reduce the amount of time they need to keep a customer on hold, therefore, improving the mood of the customer and decreasing frustrations for the employee.
+The purpose of our project is to improve and expedite the process of searching for files on your computer. In general the software is for anyone who has ever had a difficult time locating a specific file they need to find quickly within their file manager. Our client specifically is an insurance company and they need the application to be able to quickly locate important medical and financial documents of varying filetype. Customer service representatives will especially benefit from the application because it will both simplify the search process and reduce the amount of time they need to keep a customer on hold, therefore, improving the mood of the customer and decreasing frustrations for the employee. 
 
 ===
 1.2. Scope Of This Document
@@ -28,13 +28,15 @@ This document will outline the basic structure of our software's interfaces and 
 ===
 1.3. Definitions, Acronyms, And Abbreviations
 
-GUI - Graphic User Interface
+See external glossary
 
 +++
 2. Design Summary
 
 ===
 2.1. Overview of Design
+
+Our design for this project is based around a main class that will manage the interactions between our GUI class, User class, and our database. Our GUI class will instantiate objects that allow the user to view information about their file hierarchy, tags, and the history of the actions that they have performed. The GUI is also where the user will interact with these areas to select files and either add tags to them or remove tags from them, create and delete tags, and search for files based upon their given tags. There will be a centrally located search bar in the GUI to facilitate the searching of files by their tags. To access the application the user will need to login through the GUI with a username and password that will be stored in the database. There will be three different levels of users based upon subclasses where the increased level of user indicates increased privleges and gives them access to more methods that they can execute. A basic user has a username and password and can add and remove tags from files, as well as, search for files based upon their tags. The next level of user inherits the previous methods and properties but they are also able to create new tags for use and delete tags from existence. The highest level of user again inherits the previous methods and properties but can create new users, delete users, promote users to the next level, and demote users down a level. The GUI will also communicate through an external interface with the computers file manager so that the file hierarchy can be viewed and navigated through withinin the GUI. There will also be a DBhelper class that reformats incoming and outgoing data so that it will correctly interact with both the database and our programming language. All data will be transferred through an HTTPS server for security purposes and the server will be set up with a Server class.     
 
 ===
 2.2. Design Issues
@@ -57,11 +59,19 @@ our procedure for the group which are the meeting hours in a text file, we have 
 ===
 3.1. Security
 
+Being that our client is dealing with docments and records that by law need to remain confidential due to HIPAA laws we will be handling all transfers of data with an HTTPS server. This would stop potential hackers from being able to understand any data that they were able to intercept during a transfer to the database through the use of encryption. The company network is also local and will not be connected to the internet therefore forcing hackers to have a way to directly access the network. The physical security of the building will provide further protection and deny unauthorized personnel any way of directly accessing the network or server.
+
 ===
 3.2. Hardware
 
+The hardware that will be required for this project will include the following. A server for the database to be stored on. A network to provide the comunication of data between the employee's computers, which will host the GUI, and the database. Cables and routers will also be neccesary both to connect the employee's computers to the database server and for the construction of the network as the entire LAN will be hardwired to increase security. Our application will be able to run on any basic computer or laptop that is provided for the employees.
+
 ===
 3.3. User Interfaces
+
+The GUI will be a window that appears in the middle of the screen and can be resized and dragged to where the user wants it. A login screen will be the first to appear where the employee can input their username and password to get into the application. After logging in there will be a screen with three separated areas. On one side will be a panel where the user employee can navigate their file tree and select a folder or file that that want to add or remove tags from. There will also be a checkable option that allows the tags that are added/removed to be inhereted by the subfolders and files beneath it. On the other side of the screen there will be a panel that has all of the available tags that can be used as well as a search bar to search for a specific tag that the employee wants to use. If the employee has the correct permissions this is also where they will be able to delete tags from the database, as well as, create new tags for use. In the middle of the screen there will be a search bar where the employee will be able to search for files by entering the associated tags and this is where the returned files will be displayed. There will also be a button where the user can display their personal history of what actions they have recently performed. Clicking on this button will bring up a new panel and will display these archived actions in two columns. The first column will have what action the user performed, whether it be adding a tag to a file, deleting a tag, or searching for a file by its tags. The second column will have the what object the action took place upon. Whether it be the filename that was returned by the search or show the tag that was created/deleted.  
+
+Insert UI mockups here
 
 ===
 3.4. Internal Interfaces
@@ -71,6 +81,10 @@ our procedure for the group which are the meeting hours in a text file, we have 
 
 ===
 3.6. Architecture
+
+The architecture being used for this project is a client/server model. Our client will have many differnent instances of the GUI open on different employee computers. All of these separate instances will be simultaneously communicating over the established company network and routed into the database using an HTTPS server that we will have set up. This architeture will support constant updates of the GUI based on any changes made to the data on the server side that were created by another user and instance of the program. This is so all of the information remains constant and reliable for the employees who need to use it.
+
+Insert architecture diagram here
 
 ===
 3.7. Reports
@@ -83,6 +97,26 @@ our procedure for the group which are the meeting hours in a text file, we have 
 
 ===
 3.10. Top-Level Classes (Class Hierarchy)
+
+• Main class - This will call the GUI class and handle all interaction between the user inputs and the GUI.
+
+• GUI class - This will be class that contains and displays all of our other objects.
+
+• User class - This class contains the username and password parameters and will contain the methods for the user to interact with the GUI. This class will also have two subclasses representing the level of employee and the subclasses will have additional methods for interacting with the GUI and the highest level user will be able to create other users and manage their privleges.
+
+• Tags class - This will be responsible for holding all of the created tags and displaying them for the user.
+
+• Server class - This will be for setting up our server and defining the requests for sending and retrieving data.
+
+• DBhelper class - This will be for reformatting the data from python to SQL so when it is sent it can correctly interact with our database tables
+
+• History class - This will hold a list of the users recent actions. Some examples would be creating a tag, adding a tag to a file, and searching for a file by its tags.
+
+• FileMangagerHelper class - This will be responsible for retrieveing the computers file hierarchy from the file manager for display in the GUI
+
+Insert class structure diagram here
+
+Insert class behavior diagram here
 
 ===
 3.11. Configuration Data
